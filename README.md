@@ -1,74 +1,128 @@
-# yolo-zeroshot-material-stock-mapping
-A computer vision workflow for mapping building-level façade material mixtures and window-to-wall ratio from Google Street View imagery using supervised YOLO and zero-shot vision-language models.
+# YOLO and Zero-Shot Façade Material Stock Mapping
 
-This repository contains code, model outputs, and documentation for a workflow that maps building-level façade material mixtures and window-to-wall ratio from Google Street View imagery using supervised YOLO instance segmentation and zero-shot vision-language models.
+This repository contains code, annotation files, processed outputs, figures, maps, and documentation for a computer vision workflow that maps building-level façade material mixtures and window-to-wall ratio (WWR) from Google Street View imagery.
 
-# GSV Façade Material Mapping
+The project compares two approaches for façade material mapping:
 
-This repository contains the code, model outputs, documentation, and interactive maps developed for the study:
+1. A supervised YOLOv8 instance segmentation workflow trained on manually annotated façade images.
+2. A zero-shot vision-language model workflow using prompted inference without task-specific training.
+
+The workflow was applied to Fishtown, Philadelphia, a historic rowhouse neighborhood, to generate GIS-ready building-level façade material and WWR datasets for future material stock, demolition, retrofit, and circular economy analysis.
+
+## Study
+
+This repository supports the study:
 
 **To Train or Not to Train: Supervised and Zero-Shot Façade Material Mapping for Urban Building Stocks**
 
-The project develops a reproducible workflow for mapping building-level façade material mixtures and window-to-wall ratio (WWR) from Google Street View (GSV) imagery using two computer vision approaches: a supervised YOLOv8 instance segmentation model and zero-shot vision-language models.
-
-The workflow was applied to Fishtown, Philadelphia, a historic rowhouse neighborhood, to generate GIS-ready building-level façade material and WWR data for future material stock, demolition, retrofit, and circular economy analysis.
-
----
-
-## Repository Overview
+## Repository Contents
 
 This repository includes:
 
-* Final YOLO model weights and processed YOLO outputs
-* Zero-shot inference specifications, prompts, and processed VLM outputs
-* Curated and raw GSV building-level datasets with dominant material, material fractions, and WWR
-* YOLO–zero-shot agreement and uncertainty outputs
-* Static figures and interactive maps
-* Documentation for data structure, annotation, model outputs, and map interpretation
+* YOLO annotation files in COCO format for training, validation, and testing
+* Processed YOLO prediction outputs for curated and raw GSV datasets
+* Zero-shot inference code, prompt/model configuration, and processed outputs
+* YOLO and zero-shot confusion matrices and evaluation results
+* Building-level agreement layers comparing YOLO and zero-shot predictions
+* Static maps and figures
+* Interactive HTML maps for YOLO material fractions and WWR
+* Documentation for model outputs, data structure, and workflow interpretation
 
----
+The full raw Google Street View image dataset and trained YOLO model weights are not stored directly in this repository because of file size and licensing considerations.
 
-## Research Workflow
+## Repository Structure
 
-The workflow includes the following major steps:
-
-1. Collect building footprint data for the study area.
-2. Retrieve Google Street View images for target buildings.
-3. Create a curated façade image dataset.
-4. Manually annotate façade materials and windows.
-5. Train a supervised YOLOv8 instance segmentation model.
-6. Run zero-shot vision-language models on curated and raw GSV images.
-7. Calculate dominant material, material fractions, and WWR.
-8. Join predictions to building footprints.
-9. Generate building-level maps.
-10. Compare YOLO and zero-shot predictions to create an agreement and uncertainty layer.
-
----
+```text
+yolo-zeroshot-material-stock-mapping/
+│
+├── agreement_layer/
+│   ├── agreement_layer_claude.csv
+│   ├── agreement_layer_gemini.csv
+│   ├── agreement_layer_gpt.csv
+│   └── build_agreement_layer.py
+│
+├── confusion_matrices/
+│   ├── yolo/
+│   └── zero_shot/
+│
+├── data/
+│   ├── train/
+│   │   └── _annotations.coco.json
+│   ├── valid/
+│   │   └── _annotations.coco.json
+│   ├── test/
+│   │   └── _annotations.coco.json
+│   ├── README.roboflow.txt
+│   └── benchmark_dataset.csv
+│
+├── interactive maps/
+│   ├── interactive_material fraction map_YOLO.html
+│   └── interactive_wwr_map_YOLO.html
+│
+├── maps/
+│   ├── fig1_dominant_material-yolo.png
+│   ├── fig1_dominant_material-zeroshot.png
+│   ├── fishtown_model_agreement_map.png
+│   ├── fishtown_wwr_map_gemini.png
+│   ├── fishtown_wwr_map_yolo.png
+│   └── additional comparison figures
+│
+├── outputs/
+│   ├── yolo/
+│   │   ├── curated_full_results.csv
+│   │   ├── curated_material_ratios.csv
+│   │   ├── curated_wwr_from_annotations.csv
+│   │   ├── raw_gsv_results.csv
+│   │   ├── results_overview.png
+│   │   ├── weights.png
+│   │   └── wwr_comparison.png
+│   │
+│   └── zero_shot/
+│       ├── curated_full_results_claude.csv
+│       ├── curated_full_results_gemini.csv
+│       ├── curated_full_results_gpt.csv
+│       ├── raw_gsv_results_claude.csv
+│       ├── raw_gsv_results_gemini.csv
+│       ├── raw_gsv_results_gpt.csv
+│       ├── per_class_f1_strict_vs_lenient.csv
+│       ├── summary_stats.txt
+│       └── overview figures
+│
+├── pipelines/
+│   ├── yolo/
+│   │   └── Facade_Material_Segmentation_v2 (1).ipynb
+│   │
+│   └── zero_shot/
+│       ├── README.md
+│       ├── config.py
+│       ├── data_loader.py
+│       ├── evaluation.py
+│       ├── main.py
+│       ├── materials_utils.py
+│       ├── preprocess.py
+│       ├── run_new_data.py
+│       ├── visualize.py
+│       ├── pyproject.toml
+│       ├── uv.lock
+│       └── models/
+│
+├── LICENSE
+└── README.md
+```
 
 ## Data
 
-The study uses three main data sources:
+The repository includes the annotation and output files needed to understand and evaluate the workflow.
 
-1. **Building footprints**
-   Building footprint polygons and attributes from Philadelphia open data.
+The `data/` folder contains the COCO-format annotation files for the curated YOLO dataset split into training, validation, and testing subsets. The repository also includes a benchmark dataset file used for evaluation.
 
-2. **Curated GSV façade dataset**
-   A manually curated and annotated dataset of façade images used for YOLO training, validation, testing, and zero-shot evaluation.
-
-3. **Raw GSV streetscape dataset**
-   A larger neighborhood-scale GSV dataset used for model deployment and building-level mapping.
-
-### Important Note on Google Street View Images
-
-Due to Google Street View licensing and API terms, this repository does not redistribute the full raw GSV image dataset. Instead, the repository provides image metadata, processed prediction outputs, annotations where permitted, trained model weights, code, figures, and interactive maps. Users with appropriate Google Street View API access can regenerate image inputs using the provided metadata and scripts.
-
----
+The full raw Google Street View image dataset is not redistributed in this repository. Users with appropriate access can regenerate or replace the image inputs using their own Google Street View workflow.
 
 ## Supervised YOLO Pipeline
 
 The supervised pipeline uses a YOLOv8 instance segmentation model trained on manually annotated façade images.
 
-The model detects eight classes:
+The YOLO model was trained to identify the following classes:
 
 * Aluminum composite material panels / ACM
 * Brick
@@ -79,186 +133,172 @@ The model detects eight classes:
 * Vinyl
 * Window
 
-The YOLO training and deployment process produced the following outputs:
+The repository includes the YOLO training notebook, COCO annotation files, processed prediction outputs, WWR results, and summary figures. The trained YOLO weights are not stored directly in this repository due to file size limitations.
 
-1. The final trained model weights, which allow the model to be reloaded for inference without retraining.
-2. A complete building-level dataset for each curated image, including model-predicted dominant material and per-class material ratios with corrected mismatches and annotation-based WWR.
-3. A raw GSV prediction dataset containing material ratios, WWR estimates, dominant material labels, and detection status for approximately 5,000 raw GSV buildings.
-4. An annotated curated dataset of legacy rowhouses to be used in future studies.
-5. Interactive maps showing material fractions, dominant material, and WWR for each building.
+### YOLO outputs
 
-Main YOLO outputs include:
+Main YOLO outputs are located in:
 
 ```text
 outputs/yolo/
-├── curated_wwr_from_annotations.csv
-├── curated_material_ratios.csv
-├── curated_full_results.csv
-└── raw_gsv_results.csv
 ```
 
-The trained YOLO model weights are located in:
+This folder includes:
+
+* `curated_full_results.csv`
+* `curated_material_ratios.csv`
+* `curated_wwr_from_annotations.csv`
+* `raw_gsv_results.csv`
+* `results_overview.png`
+* `weights.png`
+* `wwr_comparison.png`
+
+### YOLO model weights
+
+The trained YOLO model weights are hosted externally due to file size limitations.
 
 ```text
-models/best.pt
+Model weights:
+[https://drive.google.com/drive/folders/11x9cH3AhnYFhkVM8dNJg2-swOQVYZWn4?usp=drive_link]
 ```
 
----
+The primary model file for reuse is `best.pt`, which can be loaded for inference on new façade or Google Street View images.
 
 ## Zero-Shot Pipeline
 
-The zero-shot workflow uses vision-language models to estimate façade material information and WWR without task-specific training or fine-tuning.
+The zero-shot workflow uses prompted vision-language model inference to estimate façade material composition and WWR without task-specific training or fine-tuning.
 
-The final zero-shot comparison includes:
+The reported zero-shot models include:
 
 * Claude-Sonnet-4
-* Gemini-3-Flash
 * GPT-4o
+* Gemini-3-Flash
 
-Unlike the supervised YOLO pipeline, the zero-shot workflow does not produce trained model weights because no task-specific training is performed. Instead, reproducibility is supported through model-specific inference scripts, structured prompts, parsing logic, material normalization utilities, and saved prediction outputs.
+Unlike the YOLO workflow, the zero-shot workflow does not produce custom trained weights. Reproducibility is supported through the provided code, model configuration, prompts, material normalization rules, parsing logic, and saved prediction outputs.
 
-The zero-shot inference and deployment process produced the following outputs:
+Zero-shot code is located in:
 
-1. Reusable model-specific inference scripts for Claude-Sonnet-4, Gemini-3-Flash, and GPT-4o.
-2. Structured prompt, material normalization, parsing, and WWR utility scripts.
-3. Prediction files for the curated benchmark dataset, including dominant material, secondary material, material proportions, and WWR estimates for each model.
-4. Raw GSV prediction files for the neighborhood-scale deployment dataset.
-5. Mismatch files documenting cases where zero-shot predictions differed from manually derived ground-truth labels.
-6. Summary statistics and overview figures reporting model-level performance.
-7. Interactive maps showing dominant material, material fractions, WWR, and model agreement.
+```text
+pipelines/zero_shot/
+```
 
-Main zero-shot outputs include:
+This folder includes:
+
+* `main.py` for curated dataset evaluation
+* `run_new_data.py` for deployment on new images
+* `config.py` for model IDs, label space, paths, and API key handling
+* `data_loader.py` for input parsing and material normalization
+* `evaluation.py` for accuracy, precision, recall, and F1 evaluation
+* `materials_utils.py`, `preprocess.py`, and `visualize.py`
+* `models/` containing model wrappers and prompt utilities
+
+The zero-shot workflow requires API keys for the selected models. No API keys are stored in this repository.
+
+## Zero-Shot Outputs
+
+Main zero-shot outputs are located in:
 
 ```text
 outputs/zero_shot/
-├── curated_full_results_claude.csv
-├── curated_full_results_gemini.csv
-├── curated_full_results_gpt.csv
-├── raw_gsv_results_claude.csv
-├── raw_gsv_results_gemini.csv
-├── raw_gsv_results_gpt.csv
-├── mismatches.csv
-└── summary_stats.txt
 ```
 
-Zero-shot model scripts include:
+This folder includes curated and raw GSV prediction results for Claude, Gemini, and GPT-4o, as well as summary statistics and overview figures.
 
-```text
-src/zero_shot/
-├── claude_vision.py
-├── gemini_vision.py
-├── gpt_vision.py
-├── prompts.py
-├── wwr_utils.py
-└── materials_utils.py
-```
+Key files include:
 
-Additional model scripts tested during development may also be included, such as CLIP, LLaVA, Grounding DINO, Grounding DINO + SAM, and YOLO-World.
+* `curated_full_results_claude.csv`
+* `curated_full_results_gemini.csv`
+* `curated_full_results_gpt.csv`
+* `raw_gsv_results_claude.csv`
+* `raw_gsv_results_gemini.csv`
+* `raw_gsv_results_gpt.csv`
+* `per_class_f1_strict_vs_lenient.csv`
+* `summary_stats.txt`
 
----
-
-## Interactive Maps
-
-Interactive building-level maps are provided in the `interactive_maps/` folder. These maps show:
-
-* Dominant façade material
-* Material fractions by class
-* Window-to-wall ratio
-* YOLO and zero-shot comparison
-* Model agreement and uncertainty
-
-Example files:
-
-```text
-interactive_maps/
-├── yolo_dominant_material.html
-├── zeroshot_dominant_material.html
-├── yolo_material_fractions.html
-├── zeroshot_material_fractions.html
-├── yolo_wwr.html
-├── zeroshot_wwr.html
-└── model_agreement.html
-```
-
----
-
-## Model Agreement and Uncertainty
+## Agreement Layer
 
 YOLO and zero-shot predictions are compared at the building level using dominant material agreement and material-mixture similarity.
 
-Agreement categories are defined as:
+Agreement layer files are located in:
 
-| Category           | Rule                                             | Interpretation                                          |
-| ------------------ | ------------------------------------------------ | ------------------------------------------------------- |
-| High agreement     | Same dominant material and low L1 distance       | Same dominant material and similar proportions          |
-| Moderate agreement | Same dominant material but moderate L1 distance  | Same dominant material but different proportions        |
-| Moderate agreement | Different dominant material but low L1 distance  | Dominant material differs, but mixtures are still close |
-| Low agreement      | Different dominant material and high L1 distance | Dominant material and proportions differ                |
-| Low agreement      | Strong vector-level disagreement                 | Large difference in material mixture vectors            |
+```text
+agreement_layer/
+```
 
-The agreement map is intended as a confidence layer, not as ground-truth validation. Low-agreement buildings indicate where manual review, additional labeling, or field verification may be needed.
+This folder includes agreement outputs for each zero-shot model comparison:
 
----
+* `agreement_layer_claude.csv`
+* `agreement_layer_gemini.csv`
+* `agreement_layer_gpt.csv`
+* `build_agreement_layer.py`
 
-## Main Outputs
+The agreement layer is intended as a confidence and uncertainty indicator. Low-agreement buildings may require manual review, additional annotation, or field verification.
 
-The repository provides:
+## Maps and Figures
 
-* YOLO model weights
-* Curated benchmark prediction files
-* Raw GSV deployment prediction files
-* Zero-shot prediction files for Claude, Gemini, and GPT-4o
-* WWR estimates
-* Dominant material labels
-* Per-class material fractions
-* Model agreement and uncertainty outputs
-* Static figures
-* Interactive maps
+Static maps and figures are provided in:
 
----
+```text
+maps/
+```
+
+These include dominant material maps, WWR maps, model agreement maps, and YOLO–zero-shot comparison figures.
+
+Interactive HTML maps are provided in:
+
+```text
+interactive maps/
+```
+
+This folder currently includes:
+
+* `interactive_material fraction map_YOLO.html`
+* `interactive_wwr_map_YOLO.html`
+
+## Data Availability
+
+The repository provides code, annotation files, processed prediction outputs, evaluation results, agreement layers, static figures, and interactive maps.
+
+The full raw Google Street View image dataset is not redistributed because of file size and Google Street View licensing considerations. The trained YOLO model weights are also hosted externally because the model file is too large for standard GitHub upload.
+
+External data and model weight links can be added here:
+
+```text
+Full image dataset:
+[https://drive.google.com/drive/folders/1e4p9jU0IypgQe1OIeGGJdFs1DDYA1aZ8?usp=drive_link]
+
+Curated image dataset:
+[https://drive.google.com/drive/folders/1hvAyykOnl941x0wDwrlVJKmdaWcdhXq7?usp=drive_link]
+```
 
 ## Limitations
 
 This workflow has several limitations:
 
-* GSV images may be outdated, occluded, blurry, or poorly aligned.
-* Some images do not clearly show the target building.
-* Raw streetscape images often contain multiple attached buildings.
-* Building isolation may introduce uncertainty.
+* Google Street View images may be outdated, blurry, occluded, or poorly aligned.
+* Some images may not clearly show the target building.
+* Raw streetscape images can contain multiple attached buildings.
+* Building isolation and façade visibility introduce uncertainty.
 * The mapped material data represent only the visible street-facing façade.
-* WWR from street-level imagery is approximate.
-* Minority material classes are more difficult to detect due to limited training examples and visual ambiguity.
-* Model agreement is a confidence indicator, not ground-truth validation.
-
----
+* WWR estimates from street-level imagery are approximate.
+* Minority material classes are more difficult to classify because of limited examples and visual similarity.
+* The agreement layer is a confidence indicator, not a substitute for ground-truth validation.
 
 ## Citation
 
-If you use this repository, please cite the associated paper:
+If you use this repository, please cite the associated study:
 
 ```text
-Keles, C., Shen, Y., Un, C., Fetter-Garcia, E., Craig, M., Nally, K., Liu, F., & Cruz Rios, F. 
+Keles, C., Shen, Y., Un, C., Fetter-Garcia, E., Craig, M., Nally, K., Liu, F., & Cruz Rios, F.
 To Train or Not to Train: Supervised and Zero-Shot Façade Material Mapping for Urban Building Stocks.
 [Journal information / DOI to be added]
 ```
 
-A `CITATION.cff` file is included for citation metadata.
-
----
-
-## Data Availability
-
-The code, trained YOLO model weights, processed façade material and WWR outputs, annotation metadata, performance results, and interactive maps are available in this repository.
-
-Due to Google Street View licensing restrictions, full raw GSV images are not redistributed. Image retrieval metadata and derived model outputs are provided to support reproducibility.
-
----
-
 ## License
 
-The code is released under the MIT License unless otherwise noted. Derived datasets and documentation are released under CC BY 4.0 unless otherwise noted. Google Street View imagery is not redistributed and remains subject to Google Maps Platform terms.
+The code is released under the MIT License unless otherwise noted.
 
----
+Derived datasets, documentation, figures, and outputs may be used with attribution unless otherwise restricted. Google Street View imagery is not redistributed and remains subject to Google Maps Platform terms.
 
 ## Contact
 
@@ -268,3 +308,4 @@ For questions about this repository, please contact:
 PhD Candidate, Architectural Engineering
 Drexel University
 [ck976@drexel.edu]
+
