@@ -259,7 +259,7 @@ This folder currently includes:
 
 The repository provides code, annotation files, processed prediction outputs, evaluation results, agreement layers, static figures, and interactive maps.
 
-The full raw Google Street View image dataset is not redistributed because of file size and Google Street View licensing considerations. The trained YOLO model weights are also hosted externally because the model file is too large for standard GitHub upload.
+The full raw and curated Google Street View image dataset is not redistributed because of file size and Google Street View licensing considerations. The trained YOLO model weights are also hosted externally (see above) because the model file is too large for standard GitHub upload.
 
 External data and model weight links can be added here:
 
