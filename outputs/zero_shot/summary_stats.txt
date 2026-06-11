@@ -1,0 +1,44 @@
+======================================================================
+NEW DATA - ZERO-SHOT PREDICTION SUMMARY
+======================================================================
+
+--- GPT-4O: DOMINANT MATERIAL DISTRIBUTION ---
+
+Material                      Count   Percent   AvgRatio%
+------------------------------------------------------------
+Brick                          3668     78.6%       69.1%
+Stucco                          548     11.7%       15.8%
+Vinyl                           194      4.2%        5.5%
+Decorative stone                 66      1.4%        3.0%
+Aluminum Composite               30      0.6%        1.0%
+Metal                            59      1.3%        2.6%
+Fibercement                      60      1.3%        1.9%
+Unknown                          43      0.9%
+TOTAL                          4668
+
+--- GEMINI-3-FLASH: DOMINANT MATERIAL DISTRIBUTION ---
+
+Material                      Count   Percent   AvgRatio%
+------------------------------------------------------------
+Brick                          3635     77.9%       66.9%
+Stucco                          518     11.1%       13.9%
+Vinyl                           216      4.6%        6.6%
+Decorative stone                 86      1.8%        5.0%
+Aluminum Composite               43      0.9%        1.5%
+Metal                            52      1.1%        2.3%
+Fibercement                      94      2.0%        3.2%
+Unknown                          24      0.5%
+TOTAL                          4668
+
+--- WINDOW-TO-WALL RATIO: PREDICTION STATISTICS ---
+
+Metric                             GPT-4o  Gemini-3-Flash
+---------------------------------------------------------
+Valid predictions                    4647            4644
+Mean                                0.182           0.209
+Median                              0.200           0.200
+Std Dev                             0.069           0.066
+Min                                 0.000           0.000
+Max                                 0.600           0.600
+
+======================================================================

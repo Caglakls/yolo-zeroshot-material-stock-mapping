@@ -1,0 +1,479 @@
+Image_ID,Address,Dominant_Material,WWR,Brick_Pct,Stucco_Pct,Vinyl_Pct,Decorative_stone_Pct,Aluminum_Composite_Pct,Metal_Pct,Fibercement_Pct,GT_Front_Wall,GT_Sec_Front_Wall,GT_Proportion,GT_WWR,Match
+CMX_1102_frank,1102 FRANKFORD AVE,Brick,0.250,75.0,25.0,0.0,0.0,0.0,0.0,0.0,Brick,,1,,Yes
+CMX_1108_12_frank,1108-12 FRANKFORD AVE,Brick,0.300,100.0,0.0,0.0,0.0,0.0,0.0,0.0,Brick,,1,,Yes
+CMX_1114_frank_update,1114 FRANKFORD AVE,Brick,0.250,66.7,0.0,0.0,0.0,0.0,33.3,0.0,Brick,,1,,Yes
+CMX_1126_epalmer,1126 E PALMER ST,Aluminum Composite,0.200,33.3,0.0,0.0,0.0,66.7,0.0,0.0,Aluminum Composite,Brick,1/2,,Yes
+CMX_1142_frank,1142 FRANKFORD AVE,Metal,0.250,0.0,0.0,0.0,0.0,0.0,100.0,0.0,Fibercement,,1,,No
+CMX_1144_frank,1144 FRANKFORD AVE,Brick,0.400,66.7,0.0,0.0,0.0,33.3,0.0,0.0,Brick,Aluminum Composite,2/3,,Yes
+CMX_1148_frank,1148 FRANKFORD AVE,Decorative stone,0.150,0.0,0.0,0.0,100.0,0.0,0.0,0.0,Decorative stone,,1,,Yes
+CMX_1206_e_palmer,1206 E PALMER ST,Brick,0.400,50.0,0.0,0.0,0.0,0.0,50.0,0.0,Brick,Metal,1/2,,Yes
+CMX_1309_frank,1309 FRANKFORD AVE,Brick,0.150,66.7,0.0,0.0,0.0,0.0,33.3,0.0,Decorative stone,Brick,1/2,,Yes
+CMX_1317_23_frank,1317-23 FRANKFORD AVE,Metal,0.280,33.3,0.0,0.0,0.0,0.0,66.7,0.0,Fibercement,,1,,No
+CMX_1342_marlb,1342 MARLBOROUGH ST,Brick,0.250,100.0,0.0,0.0,0.0,0.0,0.0,0.0,Brick,,1,,Yes
+CMX_1344_marlb,1344 MARLBOROUGH ST,Brick,0.150,100.0,0.0,0.0,0.0,0.0,0.0,0.0,Brick,,1,,Yes
+CMX_1346_marlb,1346 MARLBOROUGH ST,Brick,0.250,100.0,0.0,0.0,0.0,0.0,0.0,0.0,Brick,,1,,Yes
+CMX_1348_marlb,1348 MARLBOROUGH ST,Brick,0.250,75.0,0.0,0.0,25.0,0.0,0.0,0.0,Brick,,1,,Yes
+CMX_1350_marlb,1350 MARLBOROUGH ST,Brick,0.270,75.0,0.0,0.0,25.0,0.0,0.0,0.0,Brick,,1,,Yes
+CMX_1352_marlb,1352 MARLBOROUGH ST,Brick,0.250,100.0,0.0,0.0,0.0,0.0,0.0,0.0,Brick,,1,,Yes
+CMX_1354_marlb,1354 MARLBOROUGH ST,Brick,0.250,100.0,0.0,0.0,0.0,0.0,0.0,0.0,Brick,,1,,Yes
+CMX_1356_marlb,1356 MARLBOROUGH ST,Brick,0.250,100.0,0.0,0.0,0.0,0.0,0.0,0.0,Decorative stone,,1,,No
+CMX_1358_marlb,1358 MARLBOROUGH ST,Brick,0.150,75.0,0.0,0.0,25.0,0.0,0.0,0.0,Brick,,1,,Yes
+CMX_1360_marlb,1360 MARLBOROUGH ST,Brick,0.250,100.0,0.0,0.0,0.0,0.0,0.0,0.0,Brick,,1,,Yes
+CMX_1362_marlb,1362 MARLBOROUGH ST,Brick,0.250,100.0,0.0,0.0,0.0,0.0,0.0,0.0,Brick,,1,,Yes
+CMX_1412_frank,1412 FRANKFORD AVE,Metal,0.400,0.0,0.0,0.0,0.0,0.0,100.0,0.0,Metal,,1,,Yes
+CMX_1414_frank,1414 FRANKFORD AVE,Metal,0.300,0.0,0.0,0.0,0.0,0.0,100.0,0.0,Metal,,1,,Yes
+CMX_1444_frank,1444 FRANKFORD AVE,Metal,0.250,33.3,0.0,0.0,0.0,0.0,66.7,0.0,Aluminum Composite,Brick,3/4,,No
+CMX_1500_frank,1500 FRANKFORD,Brick,0.250,66.7,33.3,0.0,0.0,0.0,0.0,0.0,Fibercement,Brick,1/2,,Yes
+CMX_1502_08_frank,1502-08 FRANKFORD AVE,Brick,0.250,66.7,33.3,0.0,0.0,0.0,0.0,0.0,Fibercement,Brick,1/2,,Yes
+CMX_1505_frank,1505 FRANKFORD AVE,Metal,0.250,0.0,33.3,0.0,0.0,0.0,66.7,0.0,Metal,Stucco,2/3,,Yes
+CMX_1509_frank,1509 FRANKFORD AVE,Fibercement,0.250,0.0,33.3,0.0,0.0,0.0,0.0,66.7,Vinyl,,1,,No
+CMX_1510_frank,1510 FRANKFORD AVE,Brick,0.300,50.0,0.0,0.0,0.0,0.0,0.0,50.0,Fibercement,Brick,1/2,,Yes
+CMX_1511_19_frank,1511-19 FRANKFORD AVE,Fibercement,0.350,33.3,0.0,0.0,0.0,0.0,0.0,66.7,Fibercement,Brick,2/3,,Yes
+CMX_1512_frank,1512 FRANKFORD AVE,Stucco,0.600,0.0,100.0,0.0,0.0,0.0,0.0,0.0,Decorative stone,Aluminum Composite,1/2,,No
+CMX_1514_16_frank_update,1514-16 FRANKFORD AVE,Decorative stone,0.400,0.0,0.0,0.0,100.0,0.0,0.0,0.0,Decorative stone,Aluminum Composite,1/2,,Yes
+CMX_1520_frank,1520 FRANKFORD AVE,Vinyl,0.180,33.3,0.0,66.7,0.0,0.0,0.0,0.0,Decorative stone,Vinyl,1/2,,Yes
+CMX_1546_48_frank,1546-48 FRANKFORD AVE,Brick,0.150,66.7,0.0,0.0,0.0,0.0,33.3,0.0,Brick,Vinyl,2/3,,Yes
+CMX_1601_frank,1601 FRANKFORD AVE,Brick,0.350,100.0,0.0,0.0,0.0,0.0,0.0,0.0,Brick,,1,,Yes
+CMX_1778_frank,1778 FRANKFORD AVE,Stucco,0.250,0.0,66.7,0.0,33.3,0.0,0.0,0.0,Decorative stone,Stucco,1/2,,Yes
+CMX_1800_frank,1800 FRANKFORD AVE,Metal,0.150,33.3,0.0,0.0,0.0,0.0,66.7,0.0,Brick,Metal,2/3,,Yes
+CMX_1806_frank,1806 FRANKFORD AVE,Vinyl,0.250,33.3,0.0,66.7,0.0,0.0,0.0,0.0,Fibercement,Brick,2/3,,No
+CMX_1820_frank,1820 FRANKFORD AVE,Brick,0.300,66.7,0.0,0.0,0.0,33.3,0.0,0.0,Brick,Aluminum Composite,1/2,,Yes
+CMX_1822_frank,1822 FRANKFORD AVE,Aluminum Composite,0.400,0.0,0.0,0.0,0.0,66.7,0.0,33.3,Aluminum Composite,Brick,2/3,,Yes
+CMX_1828_frank,1828 FRANKFORD AVE,Brick,0.400,100.0,0.0,0.0,0.0,0.0,0.0,0.0,Brick,,1,,Yes
+CMX_1830_frank,1830 FRANKFORD AVE,Fibercement,0.250,0.0,0.0,0.0,0.0,0.0,33.3,66.7,Aluminum Composite,Fibercement,2/3,,Yes
+CMX_1832_frank,1832 FRANKFORD AVE,Stucco,0.250,0.0,100.0,0.0,0.0,0.0,0.0,0.0,Brick,,1,,No
+CMX_1836_frank,1836 FRANKFORD AVE,Brick,0.300,66.7,0.0,0.0,0.0,33.3,0.0,0.0,Brick,Aluminum Composite,2/3,,Yes
+CMX_1837_blair,1837 BLAIR STREET,Brick,0.350,66.7,0.0,0.0,0.0,0.0,33.3,0.0,Aluminum Composite,Brick,1/2,,Yes
+CMX_1839_blair,1839 BLAIR STREET,Brick,0.250,66.7,0.0,0.0,0.0,0.0,0.0,33.3,Aluminum Composite,Brick,1/2,,Yes
+CMX_1841_blair,1841 BLAIR STREET,Brick,0.300,66.7,0.0,0.0,0.0,0.0,0.0,33.3,Aluminum Composite,Brick,1/2,,Yes
+CMX_1843_blair,1843 BLAIR STREET,Brick,0.300,50.0,0.0,0.0,0.0,0.0,0.0,50.0,Aluminum Composite,Brick,1/2,,Yes
+CMX_1845_blair,1845 BLAIR STREET,Brick,0.300,66.7,0.0,0.0,0.0,0.0,0.0,33.3,Aluminum Composite,Brick,1/2,,Yes
+CMX_1847_blair,1847 BLAIR STREET,Brick,0.280,66.7,0.0,0.0,0.0,0.0,0.0,33.3,Aluminum Composite,Brick,1/2,,Yes
+CMX_1849_blair,1849 BLAIR STREET,Brick,0.400,100.0,0.0,0.0,0.0,0.0,0.0,0.0,Aluminum Composite,Brick,1/2,,Yes
+CMX_1850_frank,1850 FRANKFORD AVE,Brick,0.300,50.0,0.0,50.0,0.0,0.0,0.0,0.0,Fibercement,Brick,2/3,,Yes
+CMX_1851_blair,1851 BLAIR STREET,Brick,0.400,66.7,0.0,0.0,0.0,33.3,0.0,0.0,Aluminum Composite,Brick,1/2,,Yes
+CMX_1852_frank,1852 FRANKFORD AVE,Brick,0.400,66.7,0.0,0.0,0.0,33.3,0.0,0.0,Brick,Aluminum Composite,2/3,,Yes
+CMX_1853_blair,1853 BLAIR STREET,Brick,0.400,66.7,33.3,0.0,0.0,0.0,0.0,0.0,Aluminum Composite,Brick,1/2,,Yes
+CMX_1854_frank,1854 FRANKFORD AVE,Fibercement,0.400,33.3,0.0,0.0,0.0,0.0,0.0,66.7,Brick,Aluminum Composite,2/3,,No
+CMX_1855_blair_update,1855 BLAIR STREET,Brick,0.400,66.7,0.0,0.0,0.0,33.3,0.0,0.0,Aluminum Composite,Brick,1/2,,Yes
+CMX_1856_frank,1856 FRANKFORD AVE,Brick,0.350,66.7,0.0,0.0,0.0,0.0,0.0,33.3,Brick,Aluminum Composite,2/3,,Yes
+CMX_1857_blair,1857 BLAIR STREET,Brick,0.400,66.7,0.0,0.0,0.0,33.3,0.0,0.0,Aluminum Composite,Brick,1/2,,Yes
+CMX_1858_frank,1858 FRANKFORD AVE,Brick,0.400,66.7,0.0,0.0,0.0,33.3,0.0,0.0,Brick,Aluminum Composite,2/3,,Yes
+CMX_1859_blair_update,1859 BLAIR STREET,Aluminum Composite,0.450,33.3,0.0,0.0,0.0,66.7,0.0,0.0,Aluminum Composite,Brick,1/2,,Yes
+CMX_1860_frank,1860 FRANKFORD AVE,Brick,0.400,66.7,0.0,0.0,0.0,33.3,0.0,0.0,Brick,Aluminum Composite,2/3,,Yes
+CMX_1861_blair,1861 BLAIR STREET,Brick,0.400,50.0,0.0,0.0,0.0,50.0,0.0,0.0,Aluminum Composite,Brick,1/2,,Yes
+CMX_1862_frank,1862 FRANKFORD AVE,Brick,0.400,50.0,0.0,0.0,0.0,50.0,0.0,0.0,Brick,Aluminum Composite,2/3,,Yes
+CMX_1863_blair,1863 BLAIR STREET,Metal,0.150,33.3,0.0,0.0,0.0,0.0,66.7,0.0,Vinyl,,1,,No
+CMX_1865_blair,1865 BLAIR STREET,Brick,0.250,100.0,0.0,0.0,0.0,0.0,0.0,0.0,Brick,,1,,Yes
+CMX_1867_blair,1867 BLAIR STREET,Brick,0.250,100.0,0.0,0.0,0.0,0.0,0.0,0.0,Brick,,1,,Yes
+CMX_2000_frank,2000 FRANKFORD AVE,Brick,0.150,66.7,0.0,0.0,33.3,0.0,0.0,0.0,Brick,Decorative stone,2/3,,Yes
+CMX_2001_frank,2001 FRANKFORD AVE,Brick,0.250,50.0,0.0,0.0,0.0,50.0,0.0,0.0,Aluminum Composite,Brick,2/3,,Yes
+CMX_2002_04_frank,2002-04 FRANKFORD AVE,Brick,0.300,66.7,0.0,0.0,0.0,0.0,33.3,0.0,Brick,Metal,2/3,,Yes
+CMX_2003_frank,2003 FRANKFORD AVE,Brick,0.400,66.7,0.0,0.0,0.0,33.3,0.0,0.0,Aluminum Composite,Brick,2/3,,Yes
+CMX_2005_frank,2005 FRANKFORD AVE,Brick,0.300,50.0,0.0,0.0,0.0,0.0,50.0,0.0,Brick,Metal,1/2,,Yes
+CMX_2006_10_frank,2006-10 FRANKFORD AVE,Metal,0.400,33.3,0.0,0.0,0.0,0.0,66.7,0.0,Metal,,1,,Yes
+CMX_2012_frankford,2012 FRANKFORD AVE,Metal,0.350,33.3,0.0,0.0,0.0,0.0,66.7,0.0,Metal,,1,,Yes
+CMX_2026_frank,2026 FRANKFORD AVE,Metal,0.400,0.0,33.3,0.0,0.0,0.0,66.7,0.0,Aluminum Composite,Brick,2/3,,No
+CMX_2028_frank,2028 FRANKFORD AVE,Brick,0.350,100.0,0.0,0.0,0.0,0.0,0.0,0.0,Brick,Fibercement,3/4,,Yes
+CMX_2030_frank,2030 FRANKFORD AVE,Brick,0.150,66.7,33.3,0.0,0.0,0.0,0.0,0.0,Brick,Decorative stone,2/3,,Yes
+CMX_2036_frank,2036 FRANKFORD AVE,Aluminum Composite,0.250,33.3,0.0,0.0,0.0,66.7,0.0,0.0,Aluminum Composite,Stucco,2/3,,Yes
+CMX_204_e_girard,204 E GIRARD AVE,Brick,0.250,100.0,0.0,0.0,0.0,0.0,0.0,0.0,Brick,,1,,Yes
+CMX_2040_frank,2040 FRANKFORD AVE,Brick,0.150,75.0,0.0,0.0,0.0,0.0,25.0,0.0,Brick,,1,,Yes
+CMX_206_e_girard,206 E GIRARD AVE,Stucco,0.300,0.0,100.0,0.0,0.0,0.0,0.0,0.0,Stucco,,1,,Yes
+CMX_208_e_girard,208 E GIRARD AVE,Brick,0.300,100.0,0.0,0.0,0.0,0.0,0.0,0.0,Brick,,1,,Yes
+CMX_210_e_girard,210 E GIRARD AVE,Stucco,0.150,0.0,100.0,0.0,0.0,0.0,0.0,0.0,Stucco,,1,,Yes
+CMX_2161_e_norris,2161 E NORRIS ST,Fibercement,0.250,33.3,0.0,0.0,0.0,0.0,0.0,66.7,Aluminum Composite,Brick,2/3,,No
+CMX_2209_blair,2209 BLAIR STREET,Brick,0.250,100.0,0.0,0.0,0.0,0.0,0.0,0.0,Brick,,1,,Yes
+CMX_2216_frank_update,2216 FRANKFORD AVE,Stucco,0.250,33.3,66.7,0.0,0.0,0.0,0.0,0.0,Stucco,,1,,Yes
+CMX_2220_22_e_sus,2220-22 E SUSQUEHANNA AVE,Brick,0.250,100.0,0.0,0.0,0.0,0.0,0.0,0.0,Brick,,1,,Yes
+CMX_2220_frank,2220 FRANKFORD AVE,Brick,0.250,100.0,0.0,0.0,0.0,0.0,0.0,0.0,Brick,,1,,Yes
+CMX_2221_trent,2221 TRENTON AVE,Aluminum Composite,0.400,33.3,0.0,0.0,0.0,66.7,0.0,0.0,Aluminum Composite,Brick,1/2,,Yes
+CMX_2222_frank,2222 FRANKFORD AVE,Brick,0.300,100.0,0.0,0.0,0.0,0.0,0.0,0.0,Brick,,1,,Yes
+CMX_2223_trent,2223 TRENTON AVE,Stucco,0.400,33.3,66.7,0.0,0.0,0.0,0.0,0.0,Aluminum Composite,Brick,1/2,,No
+CMX_2224_frank,2224 FRANKFORD AVE,Stucco,0.150,0.0,100.0,0.0,0.0,0.0,0.0,0.0,Stucco,,1,,Yes
+CMX_2225_trent,2225 TRENTON AVE,Stucco,0.350,33.3,66.7,0.0,0.0,0.0,0.0,0.0,Aluminum Composite,Brick,1/2,,No
+CMX_2226_frank,2226 FRANKFORD AVE,Brick,0.250,100.0,0.0,0.0,0.0,0.0,0.0,0.0,Brick,,1,,Yes
+CMX_2227_blair,2227 BLAIR STREET,Stucco,0.250,0.0,100.0,0.0,0.0,0.0,0.0,0.0,Stucco,,1,,Yes
+CMX_2227_trent,2227 TRENTON AVE,Brick,0.400,50.0,50.0,0.0,0.0,0.0,0.0,0.0,Aluminum Composite,Brick,1/2,,Yes
+CMX_2228_frank,2228 FRANKFORD AVE,Metal,0.300,0.0,0.0,0.0,0.0,33.3,66.7,0.0,Aluminum Composite,,1,,No
+CMX_2229_trent_update,2229 TRENTON AVE,Brick,0.250,66.7,33.3,0.0,0.0,0.0,0.0,0.0,Brick,Aluminum Composite,2/3,,Yes
+CMX_2231_trent_update,2231 TRENTON AVE,Brick,0.250,66.7,0.0,0.0,0.0,33.3,0.0,0.0,Brick,Aluminum Composite,2/3,,Yes
+CMX_2232_frank,2232 FRANKFORD AVE,Brick,0.400,66.7,0.0,0.0,0.0,0.0,33.3,0.0,Brick,Fibercement,2/3,,Yes
+CMX_2235_blair_update,2235 BLAIR STREET,Aluminum Composite,0.180,33.3,0.0,0.0,0.0,66.7,0.0,0.0,Brick,Aluminum Composite,2/3,,Yes
+CMX_2236_38_frank,2236_38 FRANKFORD AVE,Stucco,0.150,0.0,66.7,0.0,0.0,0.0,33.3,0.0,Stucco,Vinyl,2/3,,Yes
+CMX_2237_blair,2237 BLAIR STREET,Brick,0.250,100.0,0.0,0.0,0.0,0.0,0.0,0.0,Brick,,1,,Yes
+CMX_2323_frank,2323 FRANKFORD AVE,Brick,0.150,66.7,33.3,0.0,0.0,0.0,0.0,0.0,Brick,Stucco,2/3,,Yes
+CMX_2325_frank,2325 FRANKFORD AVE,Metal,0.300,33.3,0.0,0.0,0.0,0.0,66.7,0.0,Brick,Aluminum Composite,2/3,,No
+CMX_2327_frank_update,2327 FRANKFORD AVE,Brick,0.400,100.0,0.0,0.0,0.0,0.0,0.0,0.0,Brick,,1,,Yes
+CMX_2370_e_norris,2370 E NORRIS ST,Brick,0.300,75.0,0.0,0.0,0.0,0.0,25.0,0.0,Brick,Metal,2/3,,Yes
+CMX_339_belgrade,339 BELGRADE ST,Brick,0.150,100.0,0.0,0.0,0.0,0.0,0.0,0.0,Brick,,1,,Yes
+CMX_401_e_gir,401 E GIRARD AVE,Stucco,0.150,0.0,50.0,50.0,0.0,0.0,0.0,0.0,Stucco,Vinyl,2/3,,Yes
+CMX_403_e_gir,403 E GIRARD AVE,Stucco,0.250,0.0,100.0,0.0,0.0,0.0,0.0,0.0,Stucco,,1,,Yes
+CMX_405_e_gir,405 E GIRARD AVE,Stucco,0.250,0.0,100.0,0.0,0.0,0.0,0.0,0.0,Stucco,,1,,Yes
+CMX_407_e_gir,407 E GIRARD AVE,Brick,0.250,100.0,0.0,0.0,0.0,0.0,0.0,0.0,Brick,,1,,Yes
+CMX_409_e_gir,409 E GIRARD AVE,Brick,0.150,100.0,0.0,0.0,0.0,0.0,0.0,0.0,Brick,,1,,Yes
+CMX_411_e_gir,411 E GIRARD AVE,Brick,0.200,100.0,0.0,0.0,0.0,0.0,0.0,0.0,Brick,,1,,Yes
+CMX_413_e_gir,413 E GIRARD AVE,Brick,0.150,66.7,33.3,0.0,0.0,0.0,0.0,0.0,Brick,,1,,Yes
+CMX_415_e_gir,415 E GIRARD AVE,Brick,0.250,100.0,0.0,0.0,0.0,0.0,0.0,0.0,Brick,,1,,Yes
+CMX_419_e_gir,419 E GIRARD AVE,Brick,0.200,66.7,33.3,0.0,0.0,0.0,0.0,0.0,Brick,,1,,Yes
+CMX_429_e_gir,429 E GIRARD AVE,Brick,0.250,100.0,0.0,0.0,0.0,0.0,0.0,0.0,Brick,,1,,Yes
+CMX_431_e_gir,431 E GIRARD AVE,Brick,0.250,50.0,50.0,0.0,0.0,0.0,0.0,0.0,Stucco,Brick,2/3,,Yes
+CMX_437_e_gir,437 E GIRARD AVE,Brick,0.250,66.7,33.3,0.0,0.0,0.0,0.0,0.0,Brick,Stucco,2/3,,Yes
+CMX_439_e_gir,439 E GIRARD AVE,Brick,0.150,100.0,0.0,0.0,0.0,0.0,0.0,0.0,Stucco,,1,,No
+CMX_441_e_gir,441 E GIRARD AVE,Brick,0.300,66.7,0.0,0.0,0.0,0.0,0.0,33.3,Stucco,,1,,No
+CMX_443_e_gir,443 E GIRARD AVE,Brick,0.150,50.0,0.0,50.0,0.0,0.0,0.0,0.0,Vinyl,Brick,2/3,,Yes
+CMX_447-49_e_gir,447-49 E GIRARD AVE,Brick,0.150,66.7,0.0,33.3,0.0,0.0,0.0,0.0,Brick,Vinyl,2/3,,Yes
+CMX_451_e_gir,451 E GIRARD AVE,Brick,0.180,100.0,0.0,0.0,0.0,0.0,0.0,0.0,Brick,,1,,Yes
+CMX_455_e_gir,455 E GIRARD AVE,Vinyl,0.150,33.3,0.0,66.7,0.0,0.0,0.0,0.0,Brick,Vinyl,1/2,,Yes
+CMX_457-59_e_gir,457-59 E GIRARD AVE,Stucco,0.400,0.0,66.7,0.0,0.0,0.0,0.0,33.3,Stucco,,1,,Yes
+CMX_461-63_e_gir,461-63 E GIRARD AVE,Brick,0.250,75.0,25.0,0.0,0.0,0.0,0.0,0.0,Brick,,1,,Yes
+CMX_465-67_e_gir,465-67 E GIRARD AVE,Stucco,0.250,0.0,100.0,0.0,0.0,0.0,0.0,0.0,Stucco,,1,,Yes
+CMX_601_e_girard,601 E GIRARD AVE,Decorative stone,0.150,0.0,33.3,0.0,66.7,0.0,0.0,0.0,Decorative stone,Stucco,1/2,,Yes
+RM_1224_e_columbia,1224 E COLUMBIA AVE,Brick,0.250,100.0,0.0,0.0,0.0,0.0,0.0,0.0,Brick,Metal,2/3,,Yes
+RM_1767_frank,1767 FRANKFORD AVE,Metal,0.250,33.3,0.0,0.0,0.0,0.0,66.7,0.0,Metal,Brick,2/3,,Yes
+RS_1032_ecol,1034 E COLUMBIA AVE,Brick,0.350,50.0,0.0,0.0,0.0,0.0,50.0,0.0,Metal,Brick,2/3,,Yes
+RS_1033_e_palmer,1033 E PALMER ST,Decorative stone,0.250,33.3,0.0,0.0,66.7,0.0,0.0,0.0,Decorative stone,,1,,Yes
+RS_1036_ecol,1036 E COLUMBIA AVE,Brick,0.250,100.0,0.0,0.0,0.0,0.0,0.0,0.0,Brick,,1,,Yes
+RS_1100_marlborough,1100 MARLBOROUGH ST,Brick,0.200,100.0,0.0,0.0,0.0,0.0,0.0,0.0,Decorative stone,,1,,No
+RS_1104_marlborough,1104 MARLBOROUGH ST,Decorative stone,0.250,0.0,0.0,0.0,100.0,0.0,0.0,0.0,Decorative stone,,1,,Yes
+RS_1106_ecol,1106 E COLUMBIA AVE,Brick,0.250,100.0,0.0,0.0,0.0,0.0,0.0,0.0,Brick,,1,,Yes
+RS_1107_ecol,1107 E COLUMBIA AVE,Brick,0.250,100.0,0.0,0.0,0.0,0.0,0.0,0.0,Brick,,1,,Yes
+RS_1107_marlborough,1107 MARLBOROUGH ST,Brick,0.250,100.0,0.0,0.0,0.0,0.0,0.0,0.0,Decorative stone,,1,,No
+RS_1108_ecol_update,1108 E COLUMBIA AVE,Brick,0.250,50.0,0.0,0.0,0.0,0.0,0.0,50.0,Metal,Brick,1/2,,Yes
+RS_1110_ecol,1110 E COLUMBIA AVE,Stucco,0.150,0.0,100.0,0.0,0.0,0.0,0.0,0.0,Stucco,,1,,Yes
+RS_1111_shackamaxon,1111 SHACKAMAXON ST,Vinyl,0.250,25.0,0.0,75.0,0.0,0.0,0.0,0.0,Vinyl,,1,,Yes
+RS_1113_ecol,1113 E COLUMBIA AVE,Brick,0.250,50.0,0.0,50.0,0.0,0.0,0.0,0.0,Brick,Vinyl,1/2,,Yes
+RS_1113_shackamaxon,1113 SHACKAMAXON ST,Stucco,0.250,33.3,66.7,0.0,0.0,0.0,0.0,0.0,Stucco,,1,,Yes
+RS_1115_ecol,1115 E COLUMBIA AVE,Brick,0.250,100.0,0.0,0.0,0.0,0.0,0.0,0.0,Brick,,1,,Yes
+RS_1116_day,1116 DAY ST,Brick,0.250,66.7,0.0,0.0,0.0,0.0,33.3,0.0,Brick,Metal,2/3,,Yes
+RS_1116_oxford,1116 E OXFORD ST,Stucco,0.250,0.0,100.0,0.0,0.0,0.0,0.0,0.0,Stucco,,1,,Yes
+RS_1117_e_wilt,1117 E WILT ST,Vinyl,0.250,0.0,0.0,50.0,50.0,0.0,0.0,0.0,Decorative stone,Vinyl,1/2,,Yes
+RS_1117_ecol,1117 E COLUMBIA AVE,Brick,0.150,100.0,0.0,0.0,0.0,0.0,0.0,0.0,Brick,,1,,Yes
+RS_1117_shackamaxon,1117 SHACKAMAXON ST,Brick,0.250,66.7,0.0,33.3,0.0,0.0,0.0,0.0,Brick,Fibercement,2/3,,Yes
+RS_1118_ecol,1118 E COLUMBIA AVE,Stucco,0.150,0.0,100.0,0.0,0.0,0.0,0.0,0.0,Stucco,,1,,Yes
+RS_1123_montgomery,Â 1123  E MONTGOMERY AVE,Vinyl,0.250,0.0,0.0,100.0,0.0,0.0,0.0,0.0,Vinyl,,1,,Yes
+RS_1131_shackamaxon,1131 SHACKAMAXON ST,Brick,0.150,50.0,0.0,0.0,0.0,0.0,50.0,0.0,Metal,Brick,2/3,,Yes
+RS_1135_shackamaxon,1135 SHACKAMAXON ST,Brick,0.250,100.0,0.0,0.0,0.0,0.0,0.0,0.0,Stucco,,1,,No
+RS_1204_ecol,1204 E COLUMBIA AVE,Brick,0.250,100.0,0.0,0.0,0.0,0.0,0.0,0.0,Decorative stone,,1,,No
+RS_1204_marlborough,1204 MARLBOROUGH ST,Brick,0.200,100.0,0.0,0.0,0.0,0.0,0.0,0.0,Decorative stone,,1,,No
+RS_1207_ecol,1207 E COLUMBIA AVE,Vinyl,0.150,33.3,0.0,66.7,0.0,0.0,0.0,0.0,Vinyl,Decorative stone,2/3,,Yes
+RS_1209_ecol,1209 E COLUMBIA AVE,Vinyl,0.250,0.0,0.0,66.7,33.3,0.0,0.0,0.0,Brick,Decorative stone,2/3,,No
+RS_1211_17_day,1213 DAY ST,Brick,0.200,50.0,0.0,0.0,0.0,50.0,0.0,0.0,Aluminum Composite,Brick,1/2,,Yes
+RS_1213_epalmer,1213 E PALMER ST,Brick,0.350,66.7,0.0,0.0,0.0,0.0,0.0,33.3,Brick,Fibercement,2/3,,Yes
+RS_1214_shackamaxon,1214 SHACKAMAXON STREET,Vinyl,0.150,0.0,0.0,100.0,0.0,0.0,0.0,0.0,Vinyl,,1,,Yes
+RS_1215_epalmer,1215 E PALMER ST,Stucco,0.250,0.0,100.0,0.0,0.0,0.0,0.0,0.0,Stucco,,1,,Yes
+RS_1217_epalmer,1217 E PALMER ST,Stucco,0.250,0.0,100.0,0.0,0.0,0.0,0.0,0.0,Stucco,,1,,Yes
+RS_1219_epalmer,1219 E PALMER ST,Stucco,0.250,33.3,66.7,0.0,0.0,0.0,0.0,0.0,Stucco,,1,,Yes
+RS_1219_oxford,1219 E OXFORD ST,Vinyl,0.250,0.0,0.0,100.0,0.0,0.0,0.0,0.0,Vinyl,,1,,Yes
+RS_1221_day,1221 DAY ST,Stucco,0.250,33.3,66.7,0.0,0.0,0.0,0.0,0.0,Stucco,,1,,Yes
+RS_1221_ecol,1221 E COLUMBIA AVE,Stucco,0.250,0.0,100.0,0.0,0.0,0.0,0.0,0.0,Stucco,,1,,Yes
+RS_1221_epalmer,1221 E PALMER ST,Stucco,0.250,0.0,100.0,0.0,0.0,0.0,0.0,0.0,Stucco,,1,,Yes
+RS_1223_day,1223 DAY ST,Brick,0.220,100.0,0.0,0.0,0.0,0.0,0.0,0.0,Brick,,1,,Yes
+RS_1224_oxford,1224  E OXFORD ST,Stucco,0.250,0.0,100.0,0.0,0.0,0.0,0.0,0.0,Stucco,,1,,Yes
+RS_1225_day_update,1225 DAY ST,Brick,0.250,50.0,50.0,0.0,0.0,0.0,0.0,0.0,Stucco,,1,,No
+RS_1226_oxford,1226  E OXFORD ST,Brick,0.250,100.0,0.0,0.0,0.0,0.0,0.0,0.0,Stucco,,1,,No
+RS_1227_day,1227 DAY ST,Brick,0.250,100.0,0.0,0.0,0.0,0.0,0.0,0.0,Brick,,1,,Yes
+RS_1228_ecol,1228 E COLUMBIA AVE,Vinyl,0.250,0.0,0.0,75.0,0.0,0.0,25.0,0.0,Vinyl,,1,,Yes
+RS_1229_day,1229 DAY ST,Stucco,0.250,0.0,66.7,0.0,33.3,0.0,0.0,0.0,Stucco,,1,,Yes
+RS_1230_e_oxford,1230 E OXFORD ST,Brick,0.250,100.0,0.0,0.0,0.0,0.0,0.0,0.0,Aluminum Composite,Brick,2/3,,Yes
+RS_1230_ecol,1230  E COUMBIA AVE,Vinyl,0.250,0.0,0.0,100.0,0.0,0.0,0.0,0.0,Vinyl,,1,,Yes
+RS_1231_day,1231 DAY ST,Stucco,0.250,0.0,100.0,0.0,0.0,0.0,0.0,0.0,Stucco,,1,,Yes
+RS_1233_day,1233 DAY ST,Stucco,0.250,0.0,75.0,0.0,25.0,0.0,0.0,0.0,Stucco,,1,,Yes
+RS_1234_marlborough,1234 MARLBOROUGH ST,Decorative stone,0.250,0.0,0.0,0.0,100.0,0.0,0.0,0.0,Decorative stone,,1,,Yes
+RS_1234-36_montgomery,1234-36 E MONTGOMERY AVE,Vinyl,0.250,0.0,0.0,100.0,0.0,0.0,0.0,0.0,Vinyl,,1,,Yes
+RS_1235_day,1235 DAY ST,Stucco,0.200,0.0,100.0,0.0,0.0,0.0,0.0,0.0,Stucco,,1,,Yes
+RS_1237_39_day,1237-39 DAY ST,Brick,0.250,66.7,33.3,0.0,0.0,0.0,0.0,0.0,Brick,Stucco,1/2,,Yes
+RS_1240_e_palmer,1240 E PALMER ST,Brick,0.180,75.0,25.0,0.0,0.0,0.0,0.0,0.0,Decorative stone,,,,No
+RS_1240_montgomery,1240 E MONTGOMERY AVE,Brick,0.150,66.7,0.0,0.0,0.0,0.0,33.3,0.0,Brick,Metal,2/3,,Yes
+RS_1243_day,1243 DAY ST,Brick,0.250,100.0,0.0,0.0,0.0,0.0,0.0,0.0,Brick,,1,,Yes
+RS_1245_day,1245 DAY ST,Brick,0.200,100.0,0.0,0.0,0.0,0.0,0.0,0.0,Brick,,1,,Yes
+RS_1247_day,1247 DAY ST,Brick,0.180,100.0,0.0,0.0,0.0,0.0,0.0,0.0,Brick,,1,,Yes
+RS_1247_marlborough,1247 MARLBOROUGH STREET,Vinyl,0.150,0.0,0.0,100.0,0.0,0.0,0.0,0.0,Vinyl,,1,,Yes
+RS_1249_marlborough,1249 MARLBOROUGH STREET,Stucco,0.250,0.0,100.0,0.0,0.0,0.0,0.0,0.0,Stucco,,1,,Yes
+RS_1251_e_sus,1251 E SUSQUEHANNA AVE,Vinyl,0.250,0.0,0.0,100.0,0.0,0.0,0.0,0.0,Vinyl,,1,,Yes
+RS_1300_ecol,1300 E COLUMBIA AVE,Brick,0.250,100.0,0.0,0.0,0.0,0.0,0.0,0.0,Stucco,,1,,No
+RS_1300_marlborough,1300 MARLBOROUGH STREET,Stucco,0.250,0.0,100.0,0.0,0.0,0.0,0.0,0.0,Stucco,,1,,Yes
+RS_1301_marlborough,1301 MARLBOROUGH STREET,Stucco,0.250,0.0,66.7,0.0,33.3,0.0,0.0,0.0,Stucco,,1,,Yes
+RS_1301_montgomery,1301 E MONTGOMERY AVE,Stucco,0.150,33.3,66.7,0.0,0.0,0.0,0.0,0.0,Stucco,,1,,Yes
+RS_1307_montgomery,1307 E MONTOGOMERY AVE,Vinyl,0.250,0.0,0.0,100.0,0.0,0.0,0.0,0.0,Vinyl,,1,,Yes
+RS_1309_marlborough,1309 MARLBOROUGH STREET,Stucco,0.250,25.0,75.0,0.0,0.0,0.0,0.0,0.0,Stucco,,1,,Yes
+RS_1310_e_hewson,1310 E HEWSON STREET,Brick,0.150,66.7,33.3,0.0,0.0,0.0,0.0,0.0,Brick,Stucco,2/3,,Yes
+RS_1310_e_oxford,1310 E OXFORD ST,Decorative stone,0.250,0.0,0.0,0.0,100.0,0.0,0.0,0.0,Decorative stone,,1,,Yes
+RS_1311_e_hewson,1311 E HEWSON STREET,Stucco,0.250,0.0,100.0,0.0,0.0,0.0,0.0,0.0,Stucco,,1,,Yes
+RS_1312_e_hewson,1312 E HEWSON STREET,Brick,0.200,66.7,0.0,0.0,0.0,0.0,33.3,0.0,Brick,,1,,Yes
+RS_1313_e_hewson,1313 E HEWSON STREET,Brick,0.250,66.7,33.3,0.0,0.0,0.0,0.0,0.0,Brick,Stucco,2/3,,Yes
+RS_1313_e_palmer,1313 E PALMER ST,Decorative stone,0.250,0.0,0.0,0.0,100.0,0.0,0.0,0.0,Decorative stone,,1,,Yes
+RS_1314_e_hewson,1314 E HEWSON STREET,Brick,0.250,100.0,0.0,0.0,0.0,0.0,0.0,0.0,Brick,,1,,Yes
+RS_1315_e_hewson,1315 E HEWSON STREET,Vinyl,0.250,33.3,0.0,66.7,0.0,0.0,0.0,0.0,Vinyl,Stucco,1/2,,Yes
+RS_1316_e_hewson,1316 E HEWSON STREET,Brick,0.400,66.7,0.0,0.0,33.3,0.0,0.0,0.0,Brick,,1,,Yes
+RS_1316_marlborough,1316 MARLBOROUGH STREET,Vinyl,0.250,0.0,0.0,100.0,0.0,0.0,0.0,0.0,Fibercement,,1,,No
+RS_1317_e_hewson,1317 E HEWSON STREET,Brick,0.250,100.0,0.0,0.0,0.0,0.0,0.0,0.0,Brick,,1,,Yes
+RS_1317_montgomery,1317 E MONTOGOMERY AVE,Metal,0.250,0.0,0.0,0.0,0.0,0.0,100.0,0.0,Decorative stone,,1,,No
+RS_1318_e_hewson,1318 E HEWSON STREET,Fibercement,0.200,0.0,0.0,33.3,0.0,0.0,0.0,66.7,Aluminum Composite,,1,,No
+RS_1320_e_hewson,1320 E HEWSON STREET,Vinyl,0.250,33.3,0.0,66.7,0.0,0.0,0.0,0.0,Fibercement,,1,,No
+RS_1321_e_hewson,1321 E HEWSON STREET,Brick,0.150,100.0,0.0,0.0,0.0,0.0,0.0,0.0,Brick,,1,,Yes
+RS_1323_e_hewson,1323 E HEWSON STREET,Vinyl,0.150,33.3,0.0,66.7,0.0,0.0,0.0,0.0,Fibercement,Stucco,1/2,,No
+RS_1323_e_montgomery,1323 E MONTGOMERY AVE,Vinyl,0.200,0.0,0.0,75.0,25.0,0.0,0.0,0.0,Vinyl,,1,,Yes
+RS_1324_e_hewson,1324 E HEWSON STREET,Brick,0.250,100.0,0.0,0.0,0.0,0.0,0.0,0.0,Brick,,1,,Yes
+RS_1325_e_hewson,1325 E HEWSON STREET,Brick,0.200,66.7,0.0,33.3,0.0,0.0,0.0,0.0,Brick,Metal,2/3,,Yes
+RS_1326_e_hewson,1326 E HEWSON STREET,Brick,0.250,100.0,0.0,0.0,0.0,0.0,0.0,0.0,Brick,,1,,Yes
+RS_1328_e_hewson_update,1328 E HEWSON STREET,Vinyl,0.180,0.0,0.0,100.0,0.0,0.0,0.0,0.0,Vinyl,,1,,Yes
+RS_1329_e_hewson,1329 E HEWSON STREET,Brick,0.250,100.0,0.0,0.0,0.0,0.0,0.0,0.0,Brick,,1,,Yes
+RS_1330_e_hewson,1330 E HEWSON STREET,Stucco,0.250,0.0,100.0,0.0,0.0,0.0,0.0,0.0,Stucco,,1,,Yes
+RS_1331_e_hewson,1331 E HEWSON STREET,Vinyl,0.150,33.3,0.0,66.7,0.0,0.0,0.0,0.0,Vinyl,Brick,3/4,,Yes
+RS_1332_e_hewson,1332 E HEWSON STREET,Brick,0.150,50.0,0.0,50.0,0.0,0.0,0.0,0.0,Vinyl,Brick,2/3,,Yes
+RS_1334_e_hewson,1334 E HEWSON STREET,Brick,0.250,50.0,0.0,50.0,0.0,0.0,0.0,0.0,Vinyl,Brick,2/3,,Yes
+RS_1335_e_hewson,1335 E HEWSON STREET,Vinyl,0.180,33.3,0.0,66.7,0.0,0.0,0.0,0.0,Vinyl,,1,,Yes
+RS_1336_e_hewson,1336 E HEWSON STREET,Vinyl,0.150,33.3,0.0,66.7,0.0,0.0,0.0,0.0,Vinyl,Brick,2/3,,Yes
+RS_1336_ecol,1336 E COLUMBIA AVE,Stucco,0.150,0.0,100.0,0.0,0.0,0.0,0.0,0.0,Stucco,,1,,Yes
+RS_1337_e_hewson_update,1337 E HEWSON STREET,Brick,0.250,100.0,0.0,0.0,0.0,0.0,0.0,0.0,Brick,,1,,Yes
+RS_1338_e_hewson,1338 E HEWSON STREET,Vinyl,0.250,33.3,0.0,66.7,0.0,0.0,0.0,0.0,Vinyl,,1,,Yes
+RS_1339_marlborough,1339 MARLBOROUGH STREET,Vinyl,0.150,0.0,0.0,100.0,0.0,0.0,0.0,0.0,Vinyl,Decorative stone,2/3,,Yes
+RS_1340_e_hewson,1340 E HEWSON STREET,Fibercement,0.180,33.3,0.0,0.0,0.0,0.0,0.0,66.7,Vinyl,Brick,2/3,,No
+RS_1341_e_hewson,1341 E HEWSON STREET,Brick,0.250,100.0,0.0,0.0,0.0,0.0,0.0,0.0,Brick,,1,,Yes
+RS_1342_crease,1342 CREASE ST,Metal,0.150,33.3,0.0,0.0,0.0,0.0,66.7,0.0,Metal,Brick,1/2,,Yes
+RS_1342_e_hewson,1342 E HEWSON STREET,Brick,0.150,100.0,0.0,0.0,0.0,0.0,0.0,0.0,Brick,,1,,Yes
+RS_1343_e_hewson,1343 E HEWSON STREET,Stucco,0.250,0.0,100.0,0.0,0.0,0.0,0.0,0.0,Stucco,,1,,Yes
+RS_1344_crease,1344 CREASE ST,Brick,0.150,50.0,0.0,0.0,0.0,0.0,50.0,0.0,Metal,Brick,1/2,,Yes
+RS_1344_e_hewson,1344 E HEWSON STREET,Vinyl,0.250,33.3,0.0,66.7,0.0,0.0,0.0,0.0,Vinyl,Brick,2/3,,Yes
+RS_1345_e_hewson,1345 E HEWSON STREET,Brick,0.250,100.0,0.0,0.0,0.0,0.0,0.0,0.0,Brick,,1,,Yes
+RS_1345_ecol,1345 E COLUMBIA AVE,Vinyl,0.250,0.0,0.0,66.7,33.3,0.0,0.0,0.0,Vinyl,Decorative stone,2/3,,Yes
+RS_1345_montgomery,1345 E MONTOGOMERY AVE,Vinyl,0.250,0.0,0.0,100.0,0.0,0.0,0.0,0.0,Vinyl,,1,,Yes
+RS_1346_crease,1346 CREASE ST,Metal,0.150,33.3,0.0,0.0,0.0,0.0,66.7,0.0,Metal,Brick,1/2,,Yes
+RS_1346_e_hewson,1346 E HEWSON STREET,Vinyl,0.250,0.0,0.0,75.0,0.0,0.0,25.0,0.0,Vinyl,,1,,Yes
+RS_1347_e_hewson,1347 E HEWSON STREET,Brick,0.250,100.0,0.0,0.0,0.0,0.0,0.0,0.0,Brick,,1,,Yes
+RS_1348_crease,1348 CREASE ST,Brick,0.150,50.0,0.0,0.0,0.0,0.0,50.0,0.0,Metal,Brick,1/2,,Yes
+RS_1348_e_hewson,1348 E HEWSON STREET,Brick,0.250,66.7,0.0,33.3,0.0,0.0,0.0,0.0,Brick,Stucco,2/3,,Yes
+RS_1349_e_hewson,1349 E HEWSON STREET,Vinyl,0.150,0.0,0.0,100.0,0.0,0.0,0.0,0.0,Vinyl,,1,,Yes
+RS_1350_crease,1350 CREASE ST,Brick,0.150,50.0,0.0,0.0,0.0,0.0,50.0,0.0,Metal,Brick,1/2,,Yes
+RS_1350_e_hewson,1350 E HEWSON STREET,Vinyl,0.250,0.0,0.0,100.0,0.0,0.0,0.0,0.0,Vinyl,Stucco,1/2,,Yes
+RS_1351_e_hewson,1351 E HEWSON STREET,Vinyl,0.150,33.3,0.0,66.7,0.0,0.0,0.0,0.0,Vinyl,,1,,Yes
+RS_1352_crease,1352 CREASE ST,Brick,0.150,50.0,0.0,0.0,0.0,0.0,50.0,0.0,Metal,Brick,1/2,,Yes
+RS_1352_e_hewson,1352 E HEWSON STREET,Stucco,0.250,0.0,100.0,0.0,0.0,0.0,0.0,0.0,Stucco,,1,,Yes
+RS_1352_ecol,1352  E COLUMBIA AVE,Fibercement,0.180,0.0,0.0,0.0,0.0,0.0,0.0,100.0,Vinyl,,1,,No
+RS_1353_e_hewson,1353 E HEWSON STREET,Brick,0.250,100.0,0.0,0.0,0.0,0.0,0.0,0.0,Brick,,1,,Yes
+RS_1354_crease,1354 CREASE ST,Brick,0.150,50.0,0.0,0.0,0.0,0.0,50.0,0.0,Metal,Brick,1/2,,Yes
+RS_1354_ecol,1354 E COLUMBIA AVE,Vinyl,0.250,0.0,0.0,100.0,0.0,0.0,0.0,0.0,Vinyl,,1,,Yes
+RS_1355_e_hewson,1355 E HEWSON STREET,Vinyl,0.250,33.3,0.0,66.7,0.0,0.0,0.0,0.0,Decorative stone,,1,,No
+RS_1356_58_e_hewson,1356-58 E HEWSON STREET,Brick,0.250,66.7,33.3,0.0,0.0,0.0,0.0,0.0,Brick,Stucco,3/4,,Yes
+RS_1356_crease,1356 CREASE ST,Metal,0.250,33.3,0.0,0.0,0.0,0.0,66.7,0.0,Metal,Brick,1/2,,Yes
+RS_1357_e_hewson,1357 E HEWSON STREET,Brick,0.250,100.0,0.0,0.0,0.0,0.0,0.0,0.0,Brick,,1,,Yes
+RS_1358_crease,1358 CREASE ST,Brick,0.250,50.0,0.0,0.0,0.0,0.0,50.0,0.0,Metal,Brick,1/2,,Yes
+RS_1359_e_hewson,1359 E HEWSON STREET,Brick,0.250,100.0,0.0,0.0,0.0,0.0,0.0,0.0,Brick,,1,,Yes
+RS_1360_crease,1360 CREASE ST,Metal,0.250,33.3,0.0,0.0,0.0,0.0,66.7,0.0,Metal,Brick,1/2,,Yes
+RS_1361_e_hewson,1361 E HEWSON STREET,Brick,0.250,100.0,0.0,0.0,0.0,0.0,0.0,0.0,Brick,,1,,Yes
+RS_1362_crease,1362 CREASE ST,Brick,0.250,50.0,0.0,0.0,0.0,0.0,50.0,0.0,Metal,Brick,1/2,,Yes
+RS_1364_crease,1364 CREASE ST,Metal,0.250,33.3,0.0,0.0,0.0,0.0,66.7,0.0,Metal,Brick,1/2,,Yes
+RS_1401_e_columbia,1401 E COLUMBIA AVE,Brick,0.250,66.7,0.0,33.3,0.0,0.0,0.0,0.0,Brick,Fibercement,2/3,,Yes
+RS_1401_ewilt,1401 E WILT ST,Brick,0.250,50.0,0.0,50.0,0.0,0.0,0.0,0.0,Brick,Vinyl,1/2,,Yes
+RS_1401_marlborough,1401 MARLBOROUGH ST,Metal,0.250,33.3,0.0,0.0,0.0,0.0,66.7,0.0,Metal,Brick,2/3,,Yes
+RS_1403_ewilt,1403 E WILT ST,Brick,0.180,100.0,0.0,0.0,0.0,0.0,0.0,0.0,Brick,,1,,Yes
+RS_1405_emerick,1405 EMERICK ST,Vinyl,0.150,0.0,33.3,66.7,0.0,0.0,0.0,0.0,Stucco,Vinyl,1/2,,Yes
+RS_1405_ewilt,1405 E WILT ST,Brick,0.250,100.0,0.0,0.0,0.0,0.0,0.0,0.0,Brick,,1,,Yes
+RS_1407_ewilt,1407 E WILT ST,Brick,0.250,100.0,0.0,0.0,0.0,0.0,0.0,0.0,Brick,,1,,Yes
+RS_1409_emerick,1409 EMERICK ST,Stucco,0.250,0.0,100.0,0.0,0.0,0.0,0.0,0.0,Stucco,,1,,Yes
+RS_1409_ewilt,1409 E WILT ST,Brick,0.250,100.0,0.0,0.0,0.0,0.0,0.0,0.0,Brick,,1,,Yes
+RS_1410_emerick,1410 EMERICK ST,Brick,0.250,66.7,0.0,0.0,0.0,0.0,33.3,0.0,Metal,Brick,2/3,,Yes
+RS_1411_emerick,1411 EMERICK ST,Stucco,0.250,0.0,100.0,0.0,0.0,0.0,0.0,0.0,Stucco,,1,,Yes
+RS_1411_ewilt,1411 E WILT ST,Brick,0.250,100.0,0.0,0.0,0.0,0.0,0.0,0.0,Brick,,1,,Yes
+RS_1412_emerick,1412 EMERICK ST,Brick,0.300,66.7,0.0,0.0,0.0,0.0,33.3,0.0,Metal,Brick,2/3,,Yes
+RS_1413_ewilt,1413 E WILT ST,Brick,0.250,75.0,0.0,0.0,25.0,0.0,0.0,0.0,Brick,,1,,Yes
+RS_1415_ewilt,1415 E WILT ST,Brick,0.180,66.7,0.0,0.0,33.3,0.0,0.0,0.0,Brick,,1,,Yes
+RS_1417_emerick,1417 EMERICK ST,Metal,0.250,0.0,0.0,0.0,0.0,0.0,50.0,50.0,Metal,Fibercement,2/3,,Yes
+RS_1417_ewilt,1417 E WILT ST,Brick,0.250,100.0,0.0,0.0,0.0,0.0,0.0,0.0,Brick,,1,,Yes
+RS_1419_ewilt,1419 E WILT ST,Brick,0.180,100.0,0.0,0.0,0.0,0.0,0.0,0.0,Brick,,1,,Yes
+RS_1421_ewilt,1421 E WILT ST,Brick,0.250,100.0,0.0,0.0,0.0,0.0,0.0,0.0,Brick,,1,,Yes
+RS_1423_ewilt_update,1423 E WILT ST,Brick,0.250,100.0,0.0,0.0,0.0,0.0,0.0,0.0,Brick,,1,,Yes
+RS_1443_e_col,1443 E COLUMBIA AVE,Vinyl,0.220,0.0,0.0,100.0,0.0,0.0,0.0,0.0,Vinyl,,1,,Yes
+RS_1443_ecol,1443 E COLUMBIA AVE,Vinyl,0.150,0.0,0.0,100.0,0.0,0.0,0.0,0.0,Vinyl,,1,,Yes
+RS_1446_ewilt,1446 E WILT ST,Brick,0.250,100.0,0.0,0.0,0.0,0.0,0.0,0.0,Brick,,1,,Yes
+RS_1448_ewilt,1448 E WILT ST,Brick,0.250,100.0,0.0,0.0,0.0,0.0,0.0,0.0,Brick,,1,,Yes
+RS_1450_ewilt,1450 E WILT ST,Brick,0.200,100.0,0.0,0.0,0.0,0.0,0.0,0.0,Brick,,1,,Yes
+RS_1452_ewilt,1452 E WILT ST,Brick,0.250,100.0,0.0,0.0,0.0,0.0,0.0,0.0,Brick,,1,,Yes
+RS_1454_ewilt,1454 E WILT ST,Stucco,0.000,0.0,100.0,0.0,0.0,0.0,0.0,0.0,Stucco,,1,,Yes
+RS_1456_ewilt,1456 E WILT ST,Stucco,0.250,0.0,100.0,0.0,0.0,0.0,0.0,0.0,Stucco,,1,,Yes
+RS_1458_ewilt,1458 E WILT ST,Brick,0.200,100.0,0.0,0.0,0.0,0.0,0.0,0.0,Brick,,1,,Yes
+RS_1460_ewilt,1460 E WILT ST,Stucco,0.250,0.0,100.0,0.0,0.0,0.0,0.0,0.0,Stucco,,1,,Yes
+RS_1462_ewilt,1462 E WILT ST,Brick,0.250,100.0,0.0,0.0,0.0,0.0,0.0,0.0,Brick,,1,,Yes
+RS_1464_ewilt,1464 E WILT ST,Brick,0.250,100.0,0.0,0.0,0.0,0.0,0.0,0.0,Brick,,1,,Yes
+RS_1466_ewilt,1466 E WILT ST,Vinyl,0.250,0.0,0.0,100.0,0.0,0.0,0.0,0.0,Brick,,1,,No
+RS_1467_ewilt,1467 E WILT ST,Brick,0.250,100.0,0.0,0.0,0.0,0.0,0.0,0.0,Brick,,1,,Yes
+RS_1468_ewilt,1468 E WILT ST,Brick,0.250,100.0,0.0,0.0,0.0,0.0,0.0,0.0,Brick,,1,,Yes
+RS_1469_ewilt,1469 E WILT ST,Brick,0.250,100.0,0.0,0.0,0.0,0.0,0.0,0.0,Brick,,1,,Yes
+RS_1470_ewilt,1470 E WILT ST,Brick,0.250,100.0,0.0,0.0,0.0,0.0,0.0,0.0,Brick,,1,,Yes
+RS_1471_ewilt,1471 E WILT ST,Brick,0.250,100.0,0.0,0.0,0.0,0.0,0.0,0.0,Brick,,1,,Yes
+RS_1472_ewilt,1472 E WILT ST,Brick,0.250,100.0,0.0,0.0,0.0,0.0,0.0,0.0,Brick,,1,,Yes
+RS_1473_ewilt_update,1473 E WILT ST,Brick,0.180,100.0,0.0,0.0,0.0,0.0,0.0,0.0,Brick,,1,,Yes
+RS_1474_ewilt,1474 E WILT ST,Brick,0.150,100.0,0.0,0.0,0.0,0.0,0.0,0.0,Brick,,1,,Yes
+RS_1476_ewilt,1476 E WILT ST,Brick,0.150,100.0,0.0,0.0,0.0,0.0,0.0,0.0,Brick,,1,,Yes
+RS_1477_ewilt,1477 E WILT ST,Vinyl,0.250,0.0,0.0,66.7,33.3,0.0,0.0,0.0,Decorative stone,Vinyl,1/2,,Yes
+RS_1478_ewilt,1478 E WILT ST,Brick,0.150,100.0,0.0,0.0,0.0,0.0,0.0,0.0,Brick,,1,,Yes
+RS_1479_ewilt_update,1479 E WILT ST,Brick,0.250,100.0,0.0,0.0,0.0,0.0,0.0,0.0,Brick,,1,,Yes
+RS_1483_ewilt,1483 E WILT ST,Brick,0.250,100.0,0.0,0.0,0.0,0.0,0.0,0.0,Brick,,1,,Yes
+RS_1485_ewilt,1485 E WILT ST,Brick,0.250,100.0,0.0,0.0,0.0,0.0,0.0,0.0,Brick,,1,,Yes
+RS_1780_frank,1780 FRANKFORD AVE,Brick,0.250,66.7,0.0,0.0,0.0,33.3,0.0,0.0,Brick,Aluminum Composite,2/3,,Yes
+RS_1835_sepviva,1835 SEPVIVA ST,Vinyl,0.250,0.0,0.0,100.0,0.0,0.0,0.0,0.0,Decorative stone,,,,No
+RS_2008_trenton,2008 TRENTON AVE,Brick,0.350,66.7,0.0,0.0,0.0,0.0,33.3,0.0,Brick,Metal,1/2,,Yes
+RS_2012_trenton,2012 TRENTON AVE,Brick,0.400,66.7,0.0,33.3,0.0,0.0,0.0,0.0,Brick,Metal,1/2,,Yes
+RS_2014_trenton,2014 TRENTON AVE,Brick,0.300,66.7,0.0,0.0,0.0,0.0,33.3,0.0,Brick,Metal,1/2,,Yes
+RS_2018_trenton,2018 TRENTON AVE,Brick,0.250,66.7,0.0,0.0,0.0,0.0,33.3,0.0,Brick,Metal,1/2,,Yes
+RS_2022_trenton,2022 TRENTON AVE,Brick,0.150,66.7,0.0,0.0,0.0,0.0,0.0,33.3,Brick,Metal,1/2,,Yes
+RS_2024_trenton,2024 TRENTON AVE,Brick,0.250,66.7,0.0,0.0,0.0,0.0,33.3,0.0,Brick,Fibercement,2/3,,Yes
+RS_2028_trenton,2028 TRENTON AVE,Brick,0.250,66.7,0.0,33.3,0.0,0.0,0.0,0.0,Brick,Fibercement,2/3,,Yes
+RS_203_e_wildey,203 E WILDEY ST,Vinyl,0.150,0.0,0.0,100.0,0.0,0.0,0.0,0.0,Vinyl,,1,,Yes
+RS_2032_trenton,2032 TRENTON AVE,Brick,0.250,66.7,0.0,0.0,0.0,0.0,0.0,33.3,Brick,Fibercement,2/3,,Yes
+RS_2033_tulip,2033 TULIP ST,Brick,0.250,100.0,0.0,0.0,0.0,0.0,0.0,0.0,Brick,,1,,Yes
+RS_2034_trenton,2034 TRENTON AVE,Brick,0.150,66.7,0.0,0.0,0.0,0.0,33.3,0.0,Brick,Fibercement,2/3,,Yes
+RS_2038_trenton,2038 TRENTON AVE,Brick,0.250,66.7,0.0,0.0,0.0,0.0,33.3,0.0,Brick,Fibercement,2/3,,Yes
+RS_2044_trenton,2044 TRENTON AVE,Brick,0.300,66.7,0.0,0.0,0.0,33.3,0.0,0.0,Brick,Aluminum Composite,2/3,,Yes
+RS_2046_trenton,2046 TRENTON AVE,Brick,0.250,66.7,0.0,0.0,0.0,33.3,0.0,0.0,Brick,Aluminum Composite,2/3,,Yes
+RS_2050_trenton,2050 TRENTON AVE,Metal,0.300,33.3,0.0,0.0,0.0,0.0,66.7,0.0,Brick,Metal,1/2,,Yes
+RS_211_mercer,211 MERCER ST,Vinyl,0.200,33.3,0.0,66.7,0.0,0.0,0.0,0.0,Vinyl,,1,,Yes
+RS_213_belg,213 BELGRADE ST,Stucco,0.250,33.3,66.7,0.0,0.0,0.0,0.0,0.0,Stucco,Brick,2/3,,Yes
+RS_2149_e_norris,2149 E NORRIS ST,Brick,0.250,50.0,0.0,0.0,0.0,0.0,50.0,0.0,Stucco,Brick,1/2,,Yes
+RS_215_ethompson,215 E THOMPSON ST,Vinyl,0.250,0.0,0.0,100.0,0.0,0.0,0.0,0.0,Decorative stone,,1,,No
+RS_2166_e_norris,2166 E NORRIS ST,Vinyl,0.250,0.0,0.0,100.0,0.0,0.0,0.0,0.0,Vinyl,,1,,Yes
+RS_220_e_thompson,220 E THOMPSON ST,Brick,0.250,100.0,0.0,0.0,0.0,0.0,0.0,0.0,Decorative stone,,1,,No
+RS_2200_e_sus,2200 E SUSQUEHANNA AVE,Brick,0.250,100.0,0.0,0.0,0.0,0.0,0.0,0.0,Brick,,1,,Yes
+RS_2201_e_sus,2201 E SUSQUEHANNA AVE,Brick,0.250,66.7,33.3,0.0,0.0,0.0,0.0,0.0,Brick,Stucco,1/2,,Yes
+RS_2202_e_sus,2202 E SUSQUEHANNA AVE,Brick,0.250,50.0,0.0,0.0,0.0,0.0,0.0,50.0,Brick,Fibercement,1/2,,Yes
+RS_2203_e_sus,2203 E SUSQUEHANNA AVE,Brick,0.250,100.0,0.0,0.0,0.0,0.0,0.0,0.0,Brick,,1,,Yes
+RS_2204_e_sus,2204 E SUSQUEHANNA AVE,Brick,0.280,66.7,0.0,0.0,0.0,0.0,0.0,33.3,Brick,Fibercement,1/3,,Yes
+RS_2205_e_sus,2205 E SUSQUEHANNA AVE,Brick,0.250,66.7,0.0,0.0,0.0,0.0,33.3,0.0,Brick,Vinyl,2/3,,Yes
+RS_2206_e_sus,2206 E SUSQUEHANNA AVE,Vinyl,0.150,33.3,0.0,66.7,0.0,0.0,0.0,0.0,Vinyl,Brick,2/3,,Yes
+RS_2207_almond,2207 ALMOND ST,Brick,0.250,100.0,0.0,0.0,0.0,0.0,0.0,0.0,Brick,,1,,Yes
+RS_2207_e_sus,2207 E SUSQUEHANNA AVE,Brick,0.250,100.0,0.0,0.0,0.0,0.0,0.0,0.0,Brick,,1,,Yes
+RS_2208_almond,2208 ALMOND ST,Brick,0.150,100.0,0.0,0.0,0.0,0.0,0.0,0.0,Brick,,1,,Yes
+RS_2208_e_sus,2208 E SUSQUEHANNA AVE,Brick,0.250,100.0,0.0,0.0,0.0,0.0,0.0,0.0,Brick,,1,,Yes
+RS_2209_almond,2209 ALMOND ST,Brick,0.250,100.0,0.0,0.0,0.0,0.0,0.0,0.0,Brick,,1,,Yes
+RS_2209_e_sus,2209 E SUSQUEHANNA AVE,Brick,0.300,100.0,0.0,0.0,0.0,0.0,0.0,0.0,Brick,,1,,Yes
+RS_2210_18_e_sus,2210-18 E SUSQUEHANNA AVE,Fibercement,0.350,33.3,0.0,0.0,0.0,0.0,0.0,66.7,Brick,Aluminum Composite,1/2,,No
+RS_2210_almond,2210 ALMOND ST,Stucco,0.280,0.0,100.0,0.0,0.0,0.0,0.0,0.0,Stucco,,1,,Yes
+RS_2211_almond,2211 ALMOND ST,Brick,0.250,100.0,0.0,0.0,0.0,0.0,0.0,0.0,Brick,,1,,Yes
+RS_2211_e_sus,2211 E SUSQUEHANNA AVE,Stucco,0.200,0.0,66.7,0.0,33.3,0.0,0.0,0.0,Stucco,Decorative stone,2/3,,Yes
+RS_2212_almond,2212 ALMOND ST,Brick,0.150,100.0,0.0,0.0,0.0,0.0,0.0,0.0,Brick,,1,,Yes
+RS_2213_e_sus,2213 E SUSQUEHANNA AVE,Brick,0.250,100.0,0.0,0.0,0.0,0.0,0.0,0.0,Brick,,1,,Yes
+RS_2215_almond,2215 ALMOND ST,Stucco,0.250,33.3,66.7,0.0,0.0,0.0,0.0,0.0,Stucco,,1,,Yes
+RS_2215_e_sus_update,2215 E SUSQUEHANNA AVE,Fibercement,0.200,0.0,0.0,0.0,0.0,0.0,0.0,100.0,Brick,Aluminum Composite,1,,No
+RS_2216_almond,2216 ALMOND ST,Brick,0.400,66.7,0.0,0.0,0.0,33.3,0.0,0.0,Brick,Aluminum Composite,2/3,,Yes
+RS_2217_e_sus,2217 E SUSQUEHANNA AVE,Brick,0.220,100.0,0.0,0.0,0.0,0.0,0.0,0.0,Brick,Decorative stone,2/3,,Yes
+RS_2218_almond,2218 ALMOND ST,Vinyl,0.150,33.3,0.0,66.7,0.0,0.0,0.0,0.0,Vinyl,Decorative stone,3/4,,Yes
+RS_2219_e_sus,2219 E SUSQUEHANNA AVE,Brick,0.250,100.0,0.0,0.0,0.0,0.0,0.0,0.0,Brick,,1,,Yes
+RS_222_ethompson,222 E THOMPSON STREET,Stucco,0.250,0.0,100.0,0.0,0.0,0.0,0.0,0.0,Stucco,,1,,Yes
+RS_2220_almond,2220 ALMOND ST,Brick,0.150,100.0,0.0,0.0,0.0,0.0,0.0,0.0,Brick,,1,,Yes
+RS_2221_e_sus,2221 E SUSQUEHANNA AVE,Brick,0.250,100.0,0.0,0.0,0.0,0.0,0.0,0.0,Brick,,1,,Yes
+RS_2223_e_sus,2223 E SUSQUEHANNA AVE,Brick,0.250,66.7,0.0,0.0,33.3,0.0,0.0,0.0,Brick,,1,,Yes
+RS_2225_e_sus,2225 E SUSQUEHANNA AVE,Brick,0.200,66.7,0.0,33.3,0.0,0.0,0.0,0.0,Brick,,1,,Yes
+RS_2303_e_sus_update,2303 E SUSQUEHANNA AVE,Stucco,0.150,0.0,100.0,0.0,0.0,0.0,0.0,0.0,Stucco,,1,,Yes
+RS_2305_almond,2305 ALMOND ST,Stucco,0.250,0.0,100.0,0.0,0.0,0.0,0.0,0.0,Stucco,,1,,Yes
+RS_2305_e_norris,2305  E NORRIS ST,Vinyl,0.250,0.0,0.0,100.0,0.0,0.0,0.0,0.0,Vinyl,Decorative stone,2/3,,Yes
+RS_2305_e_sus,2305 E SUSQUEHANNA AVE,Brick,0.250,100.0,0.0,0.0,0.0,0.0,0.0,0.0,Brick,,1,,Yes
+RS_2306_e_sus,2306 E SUSQUEHANNA AVE,Brick,0.250,100.0,0.0,0.0,0.0,0.0,0.0,0.0,Brick,,1,,Yes
+RS_2307_almond,2307 ALMOND ST,Brick,0.250,100.0,0.0,0.0,0.0,0.0,0.0,0.0,Decorative stone,,1,,No
+RS_2307_e_sus,2307 E SUSQUEHANNA AVE,Brick,0.250,100.0,0.0,0.0,0.0,0.0,0.0,0.0,Brick,,1,,Yes
+RS_2308_e_sus,2308 E SUSQUEHANNA AVE,Brick,0.220,100.0,0.0,0.0,0.0,0.0,0.0,0.0,Brick,,1,,Yes
+RS_2309_almond,2309 ALMOND ST,Vinyl,0.150,0.0,0.0,100.0,0.0,0.0,0.0,0.0,Brick,,1,,No
+RS_2309_e_sus,2309 E SUSQUEHANNA AVE,Brick,0.250,100.0,0.0,0.0,0.0,0.0,0.0,0.0,Brick,,1,,Yes
+RS_2310_e_sus,2310 E SUSQUEHANNA AVE,Brick,0.250,100.0,0.0,0.0,0.0,0.0,0.0,0.0,Brick,,1,,Yes
+RS_2311_almond,2311 ALMOND ST,Vinyl,0.250,0.0,0.0,100.0,0.0,0.0,0.0,0.0,Brick,,1,,No
+RS_2311_e_sus,2311 E SUSQUEHANNA AVE,Vinyl,0.250,0.0,0.0,66.7,33.3,0.0,0.0,0.0,Vinyl,Decorative stone,2/3,,Yes
+RS_2312_e_sus,2312 E SUSQUEHANNA AVE,Brick,0.250,100.0,0.0,0.0,0.0,0.0,0.0,0.0,Brick,,1,,Yes
+RS_2313_e_sus,2313 E SUSQUEHANNA AVE,Brick,0.150,100.0,0.0,0.0,0.0,0.0,0.0,0.0,Brick,,1,,Yes
+RS_2314_16_e_sus,2314-16 E SUSQUEHANNA AVE,Fibercement,0.020,0.0,0.0,0.0,0.0,0.0,0.0,100.0,Stucco,,1,,No
+RS_2315_almond,2315 ALMOND ST,Brick,0.150,100.0,0.0,0.0,0.0,0.0,0.0,0.0,Brick,,1,,Yes
+RS_2315_e_sus,2315 E SUSQUEHANNA AVE,Vinyl,0.250,33.3,0.0,66.7,0.0,0.0,0.0,0.0,Vinyl,,1,,Yes
+RS_2315_sepviva,2315 SEPVIVA ST,Fibercement,0.250,0.0,0.0,0.0,0.0,0.0,0.0,100.0,Stucco,,,,No
+RS_2317_e_sus,2317 E SUSQUEHANNA AVE,Vinyl,0.150,0.0,0.0,100.0,0.0,0.0,0.0,0.0,Vinyl,,1,,Yes
+RS_2317_sepviva,2317 SEPVIVA ST,Fibercement,0.150,33.3,0.0,0.0,0.0,0.0,0.0,66.7,Fibercement,,,,Yes
+RS_2318_e_norris,2318  E NORRIS ST,Brick,0.200,66.7,0.0,0.0,33.3,0.0,0.0,0.0,Decorative stone,Brick,1/2,,Yes
+RS_2318_e_sus,2318 E SUSQUEHANNA AVE,Brick,0.400,100.0,0.0,0.0,0.0,0.0,0.0,0.0,Brick,,1,,Yes
+RS_2319_e_sus,2319 E SUSQUEHANNA AVE,Vinyl,0.150,0.0,0.0,100.0,0.0,0.0,0.0,0.0,Decorative stone,,1,,No
+RS_2320_almond,2320 ALMOND ST,Brick,0.150,100.0,0.0,0.0,0.0,0.0,0.0,0.0,Stucco,,1,,No
+RS_2320_e_norris,2320 E NORRIS ST,Stucco,0.250,0.0,100.0,0.0,0.0,0.0,0.0,0.0,Stucco,,1,,Yes
+RS_2320_e_sus,2320 E SUSQUEHANNA AVE,Brick,0.250,100.0,0.0,0.0,0.0,0.0,0.0,0.0,Brick,,1,,Yes
+RS_2321_e_sus,2321 E SUSQUEHANNA AVE,Brick,0.300,66.7,33.3,0.0,0.0,0.0,0.0,0.0,Brick,,1,,Yes
+RS_2322_almond,2322 ALMOND ST,Brick,0.150,100.0,0.0,0.0,0.0,0.0,0.0,0.0,Brick,,1,,Yes
+RS_2322_e_sus_update,2322 E SUSQUEHANNA AVE,Brick,0.280,100.0,0.0,0.0,0.0,0.0,0.0,0.0,Brick,,1,,Yes
+RS_2323_almond,2323 ALMOND ST,Brick,0.250,100.0,0.0,0.0,0.0,0.0,0.0,0.0,Brick,,1,,Yes
+RS_2324_almond,2324 ALMOND ST,Brick,0.200,100.0,0.0,0.0,0.0,0.0,0.0,0.0,Brick,,1,,Yes
+RS_2324_e_sus,2324 E SUSQUEHANNA AVE,Brick,0.280,75.0,0.0,0.0,0.0,0.0,25.0,0.0,Brick,,1,,Yes
+RS_2326_almond,2326 ALMOND ST,Brick,0.250,100.0,0.0,0.0,0.0,0.0,0.0,0.0,Brick,,1,,Yes
+RS_2326_e_sus,2326 E SUSQUEHANNA AVE,Brick,0.250,100.0,0.0,0.0,0.0,0.0,0.0,0.0,Brick,,1,,Yes
+RS_2327_almond,2327 ALMOND ST,Stucco,0.150,0.0,100.0,0.0,0.0,0.0,0.0,0.0,Brick,,1,,No
+RS_2328_almond,2328 ALMOND ST,Brick,0.250,100.0,0.0,0.0,0.0,0.0,0.0,0.0,Brick,,1,,Yes
+RS_2329_almond,2329 ALMOND ST,Brick,0.150,100.0,0.0,0.0,0.0,0.0,0.0,0.0,Brick,,1,,Yes
+RS_2330_almond,2330 ALMOND ST,Stucco,0.250,0.0,100.0,0.0,0.0,0.0,0.0,0.0,Stucco,,1,,Yes
+RS_2331_almond,2331 ALMOND ST,Brick,0.250,100.0,0.0,0.0,0.0,0.0,0.0,0.0,Brick,,1,,Yes
+RS_2332_almond_update,2332 ALMOND ST,Brick,0.250,100.0,0.0,0.0,0.0,0.0,0.0,0.0,Brick,,1,,Yes
+RS_2333_almond,2333 ALMOND ST,Stucco,0.250,33.3,66.7,0.0,0.0,0.0,0.0,0.0,Stucco,,1,,Yes
+RS_2334_almond_update,2334 ALMOND ST,Stucco,0.250,0.0,100.0,0.0,0.0,0.0,0.0,0.0,Stucco,,1,,Yes
+RS_2335_almond,2335 ALMOND ST,Brick,0.250,100.0,0.0,0.0,0.0,0.0,0.0,0.0,Brick,,1,,Yes
+RS_2336_almond,2336 ALMOND ST,Stucco,0.250,0.0,66.7,0.0,33.3,0.0,0.0,0.0,Stucco,,1,,Yes
+RS_235_e_allen,235 E ALLEN ST,Vinyl,0.250,33.3,0.0,66.7,0.0,0.0,0.0,0.0,Vinyl,Decorative stone,2/3,,Yes
+RS_2362_e_norris,2362 E NORRIS ST,Metal,0.250,33.3,0.0,0.0,0.0,0.0,66.7,0.0,Metal,Brick,2/3,,Yes
+RS_2411_e_norris,2411 E NORRIS ST,Brick,0.250,50.0,0.0,0.0,0.0,50.0,0.0,0.0,Brick,Aluminum Composite,2/3,,Yes
+RS_2427_e_norris,2427 E NORRIS ST,Stucco,0.250,33.3,66.7,0.0,0.0,0.0,0.0,0.0,Stucco,,1,,Yes
+RS_2439_e_norris,2439 E NORRIS ST,Stucco,0.250,0.0,100.0,0.0,0.0,0.0,0.0,0.0,Stucco,,1,,Yes
+RS_2447_sepviva,2447 SEPVIVA ST,Metal,0.250,33.3,0.0,0.0,0.0,0.0,66.7,0.0,Aluminum Composite,,0,,No
+RS_2451_sepviva,2451 SEPVIVA ST,Brick,0.250,100.0,0.0,0.0,0.0,0.0,0.0,0.0,Decorative stone,,,,No
+RS_2519_e_norris,2519 E NORRIS ST,Brick,0.250,66.7,33.3,0.0,0.0,0.0,0.0,0.0,Brick,Stucco,2/3,,Yes
+RS_2652_e_norris,2652 E NORRIS ST,Brick,0.250,50.0,0.0,0.0,0.0,50.0,0.0,0.0,Brick,Aluminum Composite,2/3,,Yes
+RS_302_belgrade,302 BELGRADE ST,Decorative stone,0.250,0.0,0.0,0.0,100.0,0.0,0.0,0.0,Decorative stone,,1,,Yes
+RS_324_belgrade,324 BELGRADE ST,Stucco,0.250,0.0,100.0,0.0,0.0,0.0,0.0,0.0,Stucco,,1,,Yes
+RS_329_belgrade,329 BELGRADE ST,Vinyl,0.250,0.0,0.0,100.0,0.0,0.0,0.0,0.0,Vinyl,,1,,Yes
+RS_331_belgrade,331 BELGRADE ST,Stucco,0.250,0.0,66.7,33.3,0.0,0.0,0.0,0.0,Stucco,,1,,Yes
+RS_332_belgrade,332 BELGRADE ST,Stucco,0.180,0.0,100.0,0.0,0.0,0.0,0.0,0.0,Stucco,,1,,Yes
+RS_412_e_flora,412 E FLORA ST,Vinyl,0.200,0.0,0.0,50.0,50.0,0.0,0.0,0.0,Vinyl,Decorative stone,1/2,,Yes
+RS_419_moyer,419 MOYER ST,Brick,0.250,100.0,0.0,0.0,0.0,0.0,0.0,0.0,Brick,,1,,Yes
+RS_421_moyer,421 MOYER ST,Brick,0.250,100.0,0.0,0.0,0.0,0.0,0.0,0.0,Brick,,1,,Yes
+RS_423_moyer,423 MOYER ST,Stucco,0.250,0.0,100.0,0.0,0.0,0.0,0.0,0.0,Stucco,,1,,Yes
+RS_425_439_moyer,425 MOYER ST,Fibercement,0.200,0.0,0.0,0.0,0.0,0.0,33.3,66.7,Fibercement,,1,,Yes
+RS_429_belgrade,429 BELGRADE ST,Decorative stone,0.280,0.0,0.0,0.0,100.0,0.0,0.0,0.0,Decorative stone,,1,,Yes
+RS_435_miller,435 MILLER ST,Metal,0.400,0.0,0.0,0.0,0.0,0.0,100.0,0.0,Metal,,1,,Yes
+RS_445_miller,445 MILLER ST,Stucco,0.250,0.0,100.0,0.0,0.0,0.0,0.0,0.0,Stucco,,1,,Yes
+RS_446_miller,446 MILLER ST,Brick,0.250,66.7,0.0,0.0,0.0,0.0,33.3,0.0,Brick,Metal,2/3,,Yes
+RS_447_miller,447 MILLER ST,Vinyl,0.250,0.0,0.0,66.7,33.3,0.0,0.0,0.0,Vinyl,Decorative stone,1/2,,Yes
+RS_449_miller,449 MILLER ST,Stucco,0.250,0.0,100.0,0.0,0.0,0.0,0.0,0.0,Stucco,,1,,Yes
+RS_449_moyer,449 MOYER ST,Brick,0.250,100.0,0.0,0.0,0.0,0.0,0.0,0.0,Brick,,1,,Yes
+RS_451_moyer,451 MOYER ST,Stucco,0.220,0.0,100.0,0.0,0.0,0.0,0.0,0.0,Stucco,,1,,Yes
+RS_453_moyer,453 MOYER ST,Stucco,0.250,0.0,100.0,0.0,0.0,0.0,0.0,0.0,Stucco,,1,,Yes
+RS_455_moyer,455 MOYER ST,Vinyl,0.150,0.0,0.0,100.0,0.0,0.0,0.0,0.0,Decorative stone,,1,,No
+RS_457_moyer,457 MOYER ST,Brick,0.250,100.0,0.0,0.0,0.0,0.0,0.0,0.0,Brick,,1,,Yes
+RS_459_moyer,459 MOYER ST,Brick,0.200,100.0,0.0,0.0,0.0,0.0,0.0,0.0,Brick,,1,,Yes
+RS_461_moyer,461 MOYER ST,Brick,0.180,100.0,0.0,0.0,0.0,0.0,0.0,0.0,Brick,,1,,Yes
+RS_463_moyer,463 MOYER ST,Brick,0.250,100.0,0.0,0.0,0.0,0.0,0.0,0.0,Brick,,1,,Yes
+RS_705_e_thompson,705 E THOMPSON ST,Brick,0.200,100.0,0.0,0.0,0.0,0.0,0.0,0.0,Decorative stone,,1,,No
+RS_804_almond,804 ALMOND ST,Brick,0.250,100.0,0.0,0.0,0.0,0.0,0.0,0.0,Brick,,1,,Yes
+RS_806_almond,806 ALMOND ST,Brick,0.250,100.0,0.0,0.0,0.0,0.0,0.0,0.0,Brick,,1,,Yes
+RS_808_almond,808 ALMOND ST,Brick,0.250,100.0,0.0,0.0,0.0,0.0,0.0,0.0,Brick,,1,,Yes
+RS_810_almond,810 ALMOND ST,Brick,0.250,100.0,0.0,0.0,0.0,0.0,0.0,0.0,Brick,,1,,Yes
+RS_811_almond,811 ALMOND ST,Stucco,0.250,33.3,66.7,0.0,0.0,0.0,0.0,0.0,Stucco,,1,,Yes
+RS_812_almond,812 ALMOND ST,Brick,0.250,100.0,0.0,0.0,0.0,0.0,0.0,0.0,Brick,,1,,Yes
+RS_813_almond,813 ALMOND ST,Brick,0.250,100.0,0.0,0.0,0.0,0.0,0.0,0.0,Brick,,1,,Yes
+RS_814_almond,814 ALMOND ST,Stucco,0.250,0.0,100.0,0.0,0.0,0.0,0.0,0.0,Stucco,,1,,Yes
+RS_815_almond,815 ALMOND ST,Brick,0.250,100.0,0.0,0.0,0.0,0.0,0.0,0.0,Brick,,1,,Yes
+RS_816_almond,816 ALMOND ST,Vinyl,0.250,0.0,0.0,100.0,0.0,0.0,0.0,0.0,Decorative stone,,1,,No
+RS_817_almond,817 ALMOND ST,Brick,0.250,100.0,0.0,0.0,0.0,0.0,0.0,0.0,Brick,,1,,Yes
+RS_818_almond,818 ALMOND ST,Brick,0.250,100.0,0.0,0.0,0.0,0.0,0.0,0.0,Brick,,1,,Yes
+RS_820_almond,820 ALMOND ST,Stucco,0.250,33.3,66.7,0.0,0.0,0.0,0.0,0.0,Stucco,,1,,Yes
+RS_822_almond,822 ALMOND ST,Brick,0.250,100.0,0.0,0.0,0.0,0.0,0.0,0.0,Brick,,1,,Yes
+RS_823_almond,823 ALMOND ST,Stucco,0.180,0.0,100.0,0.0,0.0,0.0,0.0,0.0,Stucco,,1,,Yes
+RS_824_almond,824 ALMOND ST,Brick,0.250,100.0,0.0,0.0,0.0,0.0,0.0,0.0,Brick,,1,,Yes
+RS_825_almond,825 ALMOND ST,Stucco,0.250,0.0,100.0,0.0,0.0,0.0,0.0,0.0,Stucco,,1,,Yes
+RS_826_almond,826 ALMOND ST,Brick,0.180,100.0,0.0,0.0,0.0,0.0,0.0,0.0,Brick,,1,,Yes
+RS_829_almond,829 ALMOND ST,Brick,0.250,100.0,0.0,0.0,0.0,0.0,0.0,0.0,Brick,,1,,Yes
+RS_830_almond,830 ALMOND ST,Decorative stone,0.250,0.0,0.0,0.0,100.0,0.0,0.0,0.0,Decorative stone,,1,,Yes
+RS_831_almond,831 ALMOND ST,Brick,0.250,100.0,0.0,0.0,0.0,0.0,0.0,0.0,Brick,,1,,Yes
+RS_833_almond,833 ALMOND ST,Brick,0.250,100.0,0.0,0.0,0.0,0.0,0.0,0.0,Brick,,1,,Yes
+RS_834_e_thompson,834 E THOMPSON ST,Decorative stone,0.250,0.0,0.0,0.0,100.0,0.0,0.0,0.0,Decorative stone,,1,,Yes
+RS_836_almond,836 ALMOND ST,Stucco,0.250,33.3,66.7,0.0,0.0,0.0,0.0,0.0,Stucco,,1,,Yes
+RS_836_e_thompson,836 E THOMPSON ST,Vinyl,0.250,0.0,25.0,75.0,0.0,0.0,0.0,0.0,Decorative stone,,1,,No
+RS_837_almond,837 ALMOND ST,Brick,0.250,75.0,0.0,0.0,25.0,0.0,0.0,0.0,Brick,,1,,Yes
+RS_838_almond,838 ALMOND ST,Brick,0.250,100.0,0.0,0.0,0.0,0.0,0.0,0.0,Brick,,1,,Yes
+RS_846_almond,846 ALMOND ST,Brick,0.250,100.0,0.0,0.0,0.0,0.0,0.0,0.0,Brick,,1,,Yes
+RS_848_almond,848 ALMOND ST,Brick,0.250,100.0,0.0,0.0,0.0,0.0,0.0,0.0,Brick,,1,,Yes
+RS_850_almond,850 ALMOND ST,Brick,0.200,100.0,0.0,0.0,0.0,0.0,0.0,0.0,Brick,,1,,Yes
+RS_852_almond,852 ALMOND ST,Brick,0.250,75.0,25.0,0.0,0.0,0.0,0.0,0.0,Brick,,1,,Yes
+RS_856_almond,856 ALMOND ST,Brick,0.250,100.0,0.0,0.0,0.0,0.0,0.0,0.0,Brick,,1,,Yes
+RS_858_almond,858 ALMOND ST,Brick,0.250,100.0,0.0,0.0,0.0,0.0,0.0,0.0,Brick,,1,,Yes
+RS_869_mercer,869 MERCER ST,Stucco,0.120,0.0,100.0,0.0,0.0,0.0,0.0,0.0,Stucco,,1,,Yes

@@ -1,0 +1,19 @@
+setting,model,class,TP,FP,FN,precision,recall,f1
+STRICT (primary-only),Claude-Sonnet-4,Brick,225,57,14,0.8,0.94,0.86
+STRICT (primary-only),Claude-Sonnet-4,Stucco,70,6,12,0.92,0.85,0.89
+STRICT (primary-only),Claude-Sonnet-4,Vinyl,42,20,7,0.68,0.86,0.76
+STRICT (primary-only),GPT-4o,Brick,216,48,23,0.82,0.9,0.86
+STRICT (primary-only),GPT-4o,Stucco,76,6,6,0.93,0.93,0.93
+STRICT (primary-only),GPT-4o,Vinyl,43,5,6,0.9,0.88,0.89
+STRICT (primary-only),Gemini-3-Flash,Brick,234,50,5,0.82,0.98,0.89
+STRICT (primary-only),Gemini-3-Flash,Stucco,72,3,10,0.96,0.88,0.92
+STRICT (primary-only),Gemini-3-Flash,Vinyl,42,4,7,0.91,0.86,0.88
+LENIENT (primary OR secondary),Claude-Sonnet-4,Brick,265,17,39,0.94,0.87,0.9
+LENIENT (primary OR secondary),Claude-Sonnet-4,Stucco,71,5,27,0.93,0.72,0.82
+LENIENT (primary OR secondary),Claude-Sonnet-4,Vinyl,47,15,14,0.76,0.77,0.76
+LENIENT (primary OR secondary),GPT-4o,Brick,257,7,47,0.97,0.85,0.9
+LENIENT (primary OR secondary),GPT-4o,Stucco,78,4,20,0.95,0.8,0.87
+LENIENT (primary OR secondary),GPT-4o,Vinyl,47,1,14,0.98,0.77,0.86
+LENIENT (primary OR secondary),Gemini-3-Flash,Brick,274,10,30,0.96,0.9,0.93
+LENIENT (primary OR secondary),Gemini-3-Flash,Stucco,75,0,23,1.0,0.77,0.87
+LENIENT (primary OR secondary),Gemini-3-Flash,Vinyl,45,1,16,0.98,0.74,0.84
