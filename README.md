@@ -15,6 +15,13 @@ This repository supports the study:
 
 **To Train or Not to Train: Supervised and Zero-Shot Façade Material Mapping for Urban Building Stocks**
 
+The manuscript is currently under review. A formal citation and DOI will be added after publication. 
+If you use the code, processed outputs, annotation files, maps, or workflow from this repository before the paper is published, please cite this GitHub repository:
+
+```text
+Keles, C. (2026). YOLO and Zero-Shot Façade Material Stock Mapping. GitHub repository. https://github.com/Caglakls/yolo-zeroshot-material-stock-mapping
+```
+
 ## Repository Contents
 
 This repository includes:
@@ -286,13 +293,14 @@ This workflow has several limitations:
 
 ## Citation
 
-If you use this repository, please cite the associated study:
+This repository accompanies a manuscript that is currently under review.
+
+If you use the code, processed outputs, annotation files, maps, or workflow from this repository before the paper is published, please cite this GitHub repository:
 
 ```text
-Keles, C., Shen, Y., Un, C., Fetter-Garcia, E., Craig, M., Nally, K., Liu, F., & Cruz Rios, F.
-To Train or Not to Train: Supervised and Zero-Shot Façade Material Mapping for Urban Building Stocks.
-[Journal information / DOI to be added]
+Keles, C. (2026). YOLO and Zero-Shot Façade Material Stock Mapping. GitHub repository. https://github.com/Caglakls/yolo-zeroshot-material-stock-mapping
 ```
+Once the associated paper is published, this section will be updated with the full journal citation and DOI.
 
 ## License
 
